@@ -1,0 +1,25 @@
+<div class="blog-content">
+    <p class="categories">
+        {{- range $index, $category := first 3 .Params.categories -}}
+            {{- if $index }} • {{ end -}}{{- $category -}}
+        {{- end -}}
+    </p>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+    {{ $wordsPerMinute := 200 }}
+    {{ $readingTime := div .WordCount $wordsPerMinute }}
+
+    <!-- Round up if there's a remainder -->
+    {{ if gt (mod .WordCount $wordsPerMinute) 0 }}
+        {{ $readingTime = add $readingTime 1 }}
+    {{ end }}
+
+    <!-- Ensure reading time is at least 1 minute -->
+    {{ if lt $readingTime 1 }}
+        {{ $readingTime = 1 }}
+    {{ end }}
+
+    <p class="details">
+        {{ .Date.Format "Jan 2, 2006" }} • {{ $readingTime }} min read{{ if gt $readingTime 1 }}s{{ end }}
+    </p>
+</div>

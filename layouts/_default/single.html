@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="blog-post">
+    <h1>{{ .Title }}</h1>
+    <p class="details">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</p>
+
+    {{ if .Params.categories }}
+    <p class="categories">Categories: 
+        {{ range $index, $category := .Params.categories }}
+            {{ if $index }}, {{ end }}
+            <a href="/categories/{{ $category | urlize }}">{{ $category }}</a>
+        {{ end }}
+    </p>
+    {{ end }}
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

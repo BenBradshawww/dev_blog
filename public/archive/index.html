@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<div class="archive-container">
+    <h1>Blog Archive</h1>
+    
+    
+    <div class="archive-controls">
+        <input type="text" id="searchInput" placeholder="Search posts..." class="search-input">
+        <select id="yearFilter" class="year-filter">
+            <option value="">All Years</option>
+            
+            <option value="2025">2025</option>
+            
+        </select>
+        <select id="categoryFilter" class="category-filter">
+            <option value="">All Categories</option>
+            
+            <option value="ai">Ai</option>
+            
+            <option value="machine learning">Machine learning</option>
+            
+            <option value="programming">Programming</option>
+            
+        </select>
+    </div>
+
+    
+    <div id="archiveList" class="archive-list">
+        
+        <div class="year-section" data-year="2025">
+            <h2>2025</h2>
+            
+            <article class="archive-item" data-title="my true first post" data-date="2025-01-19" data-categories="Programming,AI,Machine Learning">
+                <div class="archive-item-image">
+                    
+                    
+                        
+                    
+                    
+                        <img src="/images/test.jpg" alt="Archive" />
+                    
+                </div>
+                <div class="archive-item-content">
+                    <p class="categories">Programming • AI • Machine Learning</p>
+                    <a class="archive-item-title" href="/posts/my-first-post-copy/">My True First Post</a>
+                    
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    <div class="archive-item-date">January 19, 2025 . 7 min reads</div>
+                </div>
+            </article>
+            
+            <article class="archive-item" data-title="my third post" data-date="2025-01-19" data-categories="Programming,AI,Machine Learning">
+                <div class="archive-item-image">
+                    
+                    
+                        
+                    
+                    
+                        <img src="/images/test.jpg" alt="Archive" />
+                    
+                </div>
+                <div class="archive-item-content">
+                    <p class="categories">Programming • AI • Machine Learning</p>
+                    <a class="archive-item-title" href="/posts/my-first-post-copy-4/">My Third Post</a>
+                    
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    <div class="archive-item-date">January 19, 2025 . 1 min read</div>
+                </div>
+            </article>
+            
+            <article class="archive-item" data-title="my first post" data-date="2025-01-19" data-categories="Programming,AI,Machine Learning">
+                <div class="archive-item-image">
+                    
+                    
+                        
+                    
+                    
+                        <img src="/images/test.jpg" alt="Archive" />
+                    
+                </div>
+                <div class="archive-item-content">
+                    <p class="categories">Programming • AI • Machine Learning</p>
+                    <a class="archive-item-title" href="/posts/my-first-post/">My First Post</a>
+                    
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    <div class="archive-item-date">January 19, 2025 . 1 min read</div>
+                </div>
+            </article>
+            
+            <article class="archive-item" data-title="my first post" data-date="2025-01-18" data-categories="Programming,AI,Machine Learning">
+                <div class="archive-item-image">
+                    
+                    
+                        
+                    
+                    
+                        <img src="/images/test.jpg" alt="Archive" />
+                    
+                </div>
+                <div class="archive-item-content">
+                    <p class="categories">Programming • AI • Machine Learning</p>
+                    <a class="archive-item-title" href="/posts/my-first-post-copy-3/">My First Post</a>
+                    
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    <div class="archive-item-date">January 18, 2025 . 1 min read</div>
+                </div>
+            </article>
+            
+            <article class="archive-item" data-title="my first post" data-date="2025-01-18" data-categories="Programming,AI,Machine Learning">
+                <div class="archive-item-image">
+                    
+                    
+                        
+                    
+                    
+                        <img src="/images/test.jpg" alt="Archive" />
+                    
+                </div>
+                <div class="archive-item-content">
+                    <p class="categories">Programming • AI • Machine Learning</p>
+                    <a class="archive-item-title" href="/posts/my-first-post-copy-2/">My First Post</a>
+                    
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    <div class="archive-item-date">January 18, 2025 . 1 min read</div>
+                </div>
+            </article>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+<style>
+.archive-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.archive-controls {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.search-input, .year-filter, .category-filter {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-input {
+    flex-grow: 1;
+}
+
+.year-filter, .category-filter {
+    min-width: 120px;
+}
+
+.archive-list {
+    margin-top: 2rem;
+}
+
+.year-section {
+    margin-bottom: 3rem;
+}
+
+.year-section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.archive-item {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.archive-item-image {
+    flex: 0 0 150px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+.archive-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive-item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.archive-item-date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.archive-item-title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.archive-item-title a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.archive-item-title a:hover {
+    color: #0066cc;
+}
+
+.archive-item-description {
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+.archive-item-categories {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.category-tag {
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .archive-controls {
+        flex-direction: column;
+    }
+    
+    .year-filter, .category-filter {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .archive-item {
+        flex-direction: column;
+    }
+    
+    .archive-item-image {
+        width: 100%;
+        flex-basis: auto;
+    }
+    
+    .archive-item-content {
+        width: 100%;
+    }
+}
+</style>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const yearFilter = document.getElementById('yearFilter');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const archiveItems = document.querySelectorAll('.archive-item');
+    const yearSections = document.querySelectorAll('.year-section');
+
+    function filterPosts() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedYear = yearFilter.value;
+        const selectedCategory = categoryFilter.value.toLowerCase();
+
+        yearSections.forEach(section => {
+            let hasVisiblePosts = false;
+            const sectionYear = section.dataset.year;
+            
+            if (selectedYear && selectedYear !== sectionYear) {
+                section.style.display = 'none';
+                return;
+            }
+
+            const sectionPosts = section.querySelectorAll('.archive-item');
+            sectionPosts.forEach(post => {
+                const title = post.dataset.title;
+                const categories = post.dataset.categories.toLowerCase().split(',');
+                
+                const matchesSearch = title.includes(searchTerm);
+                const matchesCategory = !selectedCategory || categories.includes(selectedCategory);
+                
+                if (matchesSearch && matchesCategory) {
+                    post.style.display = 'flex';
+                    hasVisiblePosts = true;
+                } else {
+                    post.style.display = 'none';
+                }
+            });
+
+            section.style.display = hasVisiblePosts ? 'block' : 'none';
+        });
+    }
+
+    searchInput.addEventListener('input', filterPosts);
+    yearFilter.addEventListener('change', filterPosts);
+    categoryFilter.addEventListener('change', filterPosts);
+});
+</script>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

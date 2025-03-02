@@ -1,0 +1,271 @@
+{{ define "main" }}
+<div class="archive-container">
+    <h1>Blog Archive</h1>
+    
+    <!-- Search and filter controls -->
+    <div class="archive-controls">
+        <input type="text" id="searchInput" placeholder="Search posts..." class="search-input">
+        <select id="yearFilter" class="year-filter">
+            <option value="">All Years</option>
+            {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+            <option value="{{ .Key }}">{{ .Key }}</option>
+            {{ end }}
+        </select>
+        <select id="categoryFilter" class="category-filter">
+            <option value="">All Categories</option>
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            <option value="{{ $name }}">{{ $name | humanize }}</option>
+            {{ end }}
+        </select>
+    </div>
+
+    <!-- Posts list -->
+    <div id="archiveList" class="archive-list">
+        {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+        <div class="year-section" data-year="{{ .Key }}">
+            <h2>{{ .Key }}</h2>
+            {{ range .Pages }}
+            <article class="archive-item" data-title="{{ .Title | lower }}" data-date="{{ .Date.Format "2006-01-02" }}" data-categories="{{ delimit .Params.categories "," }}">
+                <div class="archive-item-image">
+                    {{ $image := "" }}
+                    {{ with .Params.image }}
+                        {{ $image = . }}
+                    {{ else }}
+                        {{ with .Resources.GetMatch "*featured*" }}
+                            {{ $image = .RelPermalink }}
+                        {{ else }}
+                            {{ with .Resources.GetMatch "{*.jpg,*.png,*.jpeg}" }}
+                                {{ $image = .RelPermalink }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $image }}
+                        <img src="{{ $image }}" alt="{{ $.Title }}" />
+                    {{ else }}
+                        <div class="placeholder-image"></div>
+                    {{ end }}
+                </div>
+                <div class="archive-item-content">
+                    <p class="categories">
+                        {{- range $index, $category := first 3 .Params.categories -}}
+                            {{- if $index }} • {{ end -}}{{- $category -}}
+                        {{- end -}}
+                    </p>
+                    <a class="archive-item-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    {{ $wordsPerMinute := 200 }}
+                    {{ $readingTime := div .WordCount $wordsPerMinute }}
+
+                    <!-- Round up if there's a remainder -->
+                    {{ if gt (mod .WordCount $wordsPerMinute) 0 }}
+                    {{ $readingTime = add $readingTime 1 }}
+                    {{ end }}
+
+                    <!-- Ensure reading time is at least 1 minute -->
+                    {{ if lt $readingTime 1 }}
+                    {{ $readingTime = 1 }}
+                    {{ end }}
+                    <div class="archive-item-date">{{ .Date.Format "January 2, 2006" }} . {{ $readingTime }} min read{{ if gt $readingTime 1 }}s{{ end }}</div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<!-- Archive page styles -->
+<style>
+.archive-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.archive-controls {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.search-input, .year-filter, .category-filter {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-input {
+    flex-grow: 1;
+}
+
+.year-filter, .category-filter {
+    min-width: 120px;
+}
+
+.archive-list {
+    margin-top: 2rem;
+}
+
+.year-section {
+    margin-bottom: 3rem;
+}
+
+.year-section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.archive-item {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.archive-item-image {
+    flex: 0 0 150px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+.archive-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive-item-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.archive-item-date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.archive-item-title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.archive-item-title a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.archive-item-title a:hover {
+    color: #0066cc;
+}
+
+.archive-item-description {
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+.archive-item-categories {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.category-tag {
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .archive-controls {
+        flex-direction: column;
+    }
+    
+    .year-filter, .category-filter {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .archive-item {
+        flex-direction: column;
+    }
+    
+    .archive-item-image {
+        width: 100%;
+        flex-basis: auto;
+    }
+    
+    .archive-item-content {
+        width: 100%;
+    }
+}
+</style>
+
+<!-- Archive page JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const yearFilter = document.getElementById('yearFilter');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const archiveItems = document.querySelectorAll('.archive-item');
+    const yearSections = document.querySelectorAll('.year-section');
+
+    function filterPosts() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedYear = yearFilter.value;
+        const selectedCategory = categoryFilter.value.toLowerCase();
+
+        yearSections.forEach(section => {
+            let hasVisiblePosts = false;
+            const sectionYear = section.dataset.year;
+            
+            if (selectedYear && selectedYear !== sectionYear) {
+                section.style.display = 'none';
+                return;
+            }
+
+            const sectionPosts = section.querySelectorAll('.archive-item');
+            sectionPosts.forEach(post => {
+                const title = post.dataset.title;
+                const categories = post.dataset.categories.toLowerCase().split(',');
+                
+                const matchesSearch = title.includes(searchTerm);
+                const matchesCategory = !selectedCategory || categories.includes(selectedCategory);
+                
+                if (matchesSearch && matchesCategory) {
+                    post.style.display = 'flex';
+                    hasVisiblePosts = true;
+                } else {
+                    post.style.display = 'none';
+                }
+            });
+
+            section.style.display = hasVisiblePosts ? 'block' : 'none';
+        });
+    }
+
+    searchInput.addEventListener('input', filterPosts);
+    yearFilter.addEventListener('change', filterPosts);
+    categoryFilter.addEventListener('change', filterPosts);
+});
+</script>
+{{ end }} 

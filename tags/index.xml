@@ -37,45 +37,10 @@
       <description></description>
     </item>
     <item>
-      <title>GAMs</title>
-      <link>https://example.org/tags/gams/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/gams/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GLMs</title>
-      <link>https://example.org/tags/glms/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/glms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://example.org/tags/docker/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>REST APIs</title>
       <link>https://example.org/tags/rest-apis/</link>
       <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/tags/rest-apis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ARIMA</title>
-      <link>https://example.org/tags/arima/</link>
-      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/arima/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ARMA</title>
-      <link>https://example.org/tags/arma/</link>
-      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/arma/</guid>
       <description></description>
     </item>
     <item>
@@ -93,52 +58,10 @@
       <description></description>
     </item>
     <item>
-      <title>GNNs</title>
-      <link>https://example.org/tags/gnns/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/gnns/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Auto-Encoders</title>
       <link>https://example.org/tags/auto-encoders/</link>
-      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/tags/auto-encoders/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Diffusion Models</title>
-      <link>https://example.org/tags/diffusion-models/</link>
-      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/diffusion-models/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Algorithms</title>
-      <link>https://example.org/tags/algorithms/</link>
-      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/algorithms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dynamic Programming</title>
-      <link>https://example.org/tags/dynamic-programming/</link>
-      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/dynamic-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GNN</title>
-      <link>https://example.org/tags/gnn/</link>
-      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/gnn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GANs</title>
-      <link>https://example.org/tags/gans/</link>
-      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/gans/</guid>
       <description></description>
     </item>
   </channel>

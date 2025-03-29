@@ -6,43 +6,8 @@
     <description>Recent content in Programming on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2025 17:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/categories/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My True First Post</title>
-      <link>https://example.org/posts/my-first-post-copy/</link>
-      <pubDate>Sun, 19 Jan 2025 17:34:44 +0000</pubDate>
-      <guid>https://example.org/posts/my-first-post-copy/</guid>
-      <description>&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:44Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My True First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;math = true&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:44Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My True First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;math = true&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:44Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My True First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;math = true&#xA;+++&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://example.org/posts/my-first-post/</link>
-      <pubDate>Sun, 19 Jan 2025 17:34:42 +0000</pubDate>
-      <guid>https://example.org/posts/my-first-post/</guid>
-      <description>&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;This is my first markdown post.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Third Post</title>
-      <link>https://example.org/posts/my-first-post-copy-4/</link>
-      <pubDate>Sun, 19 Jan 2025 17:34:42 +0000</pubDate>
-      <guid>https://example.org/posts/my-first-post-copy-4/</guid>
-      <description>&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My Third Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My Third Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-19T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My Third Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;This is my first markdown post.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://example.org/posts/my-first-post-copy-2/</link>
-      <pubDate>Sat, 18 Jan 2025 17:34:42 +0000</pubDate>
-      <guid>https://example.org/posts/my-first-post-copy-2/</guid>
-      <description>&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-18T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-18T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-18T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;This is my first markdown post.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://example.org/posts/my-first-post-copy-3/</link>
-      <pubDate>Sat, 18 Jan 2025 17:34:42 +0000</pubDate>
-      <guid>https://example.org/posts/my-first-post-copy-3/</guid>
-      <description>&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-18T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-18T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;date = &amp;lsquo;2025-01-18T17:34:42Z&amp;rsquo;&#xA;draft = false&#xA;title = &amp;lsquo;My First Post&amp;rsquo;&#xA;image = &amp;ldquo;/images/test.jpg&amp;rdquo;&#xA;categories = [&amp;ldquo;Programming&amp;rdquo;, &amp;ldquo;AI&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;]&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;This is my first markdown post.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Non-Convex Optimisation Learning Rate Scheduling</title>
       <link>https://example.org/posts/non-convex-optimisation-learning-rate-scheduling/</link>

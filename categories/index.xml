@@ -9,38 +9,31 @@
     <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algorithms</title>
-      <link>https://example.org/categories/algorithms/</link>
+      <title>Martingales</title>
+      <link>https://example.org/categories/martingales/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/algorithms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://example.org/categories/ai/</link>
-      <pubDate>Sun, 19 Jan 2025 17:34:44 +0000</pubDate>
-      <guid>https://example.org/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>https://example.org/categories/machine-learning/</link>
-      <pubDate>Sun, 19 Jan 2025 17:34:44 +0000</pubDate>
-      <guid>https://example.org/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://example.org/categories/programming/</link>
-      <pubDate>Sun, 19 Jan 2025 17:34:44 +0000</pubDate>
-      <guid>https://example.org/categories/programming/</guid>
+      <guid>https://example.org/categories/martingales/</guid>
       <description></description>
     </item>
     <item>
       <title>Probability</title>
       <link>https://example.org/categories/probability/</link>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/categories/probability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Random Walks</title>
+      <link>https://example.org/categories/random-walks/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/random-walks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://example.org/categories/machine-learning/</link>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/machine-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -51,10 +44,24 @@
       <description></description>
     </item>
     <item>
+      <title>GAMs</title>
+      <link>https://example.org/categories/gams/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/gams/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Statistical Modelling</title>
       <link>https://example.org/categories/statistical-modelling/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/categories/statistical-modelling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optional-Stopping Theorem</title>
+      <link>https://example.org/categories/optional-stopping-theorem/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/optional-stopping-theorem/</guid>
       <description></description>
     </item>
     <item>
@@ -72,10 +79,24 @@
       <description></description>
     </item>
     <item>
+      <title>GNNs</title>
+      <link>https://example.org/categories/gnns/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/gnns/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Graphs</title>
       <link>https://example.org/categories/graphs/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/categories/graphs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MMPNs</title>
+      <link>https://example.org/categories/mmpns/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/mmpns/</guid>
       <description></description>
     </item>
     <item>
@@ -86,6 +107,13 @@
       <description></description>
     </item>
     <item>
+      <title>AI</title>
+      <link>https://example.org/categories/ai/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Diffusion Models</title>
       <link>https://example.org/categories/diffusion-models/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
@@ -93,10 +121,38 @@
       <description></description>
     </item>
     <item>
+      <title>GANs</title>
+      <link>https://example.org/categories/gans/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/gans/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Auto-Encoders</title>
       <link>https://example.org/categories/auto-encoders/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://example.org/categories/auto-encoders/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithms</title>
+      <link>https://example.org/categories/algorithms/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Programming</title>
+      <link>https://example.org/categories/dynamic-programming/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://example.org/categories/programming/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/categories/programming/</guid>
       <description></description>
     </item>
   </channel>

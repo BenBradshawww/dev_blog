@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GANs on My New Hugo Site</title>
-    <link>https://example.org/tags/gans/</link>
+    <link>http://localhost:1313/tags/gans/</link>
     <description>Recent content in GANs on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/gans/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/gans/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instance Normalisation within GANs</title>
-      <link>https://example.org/posts/instance-normalisation-within-gans/</link>
+      <link>http://localhost:1313/posts/instance-normalisation-within-gans/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/instance-normalisation-within-gans/</guid>
+      <guid>http://localhost:1313/posts/instance-normalisation-within-gans/</guid>
       <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Instance Normalisation within GANs&amp;rsquo;&#xA;date = 2024-07-13&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GANs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GANs&amp;rdquo;, &amp;ldquo;Instance Normalisation&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Instance Normalisation within GANs&amp;rsquo;&#xA;date = 2024-07-13&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GANs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GANs&amp;rdquo;, &amp;ldquo;Instance Normalisation&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
     </item>
   </channel>

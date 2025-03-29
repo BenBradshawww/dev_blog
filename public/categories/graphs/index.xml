@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphs on My New Hugo Site</title>
+    <link>https://example.org/categories/graphs/</link>
+    <description>Recent content in Graphs on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/categories/graphs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Message Passing Neural Networks</title>
+      <link>https://example.org/posts/message-passing-neural-networks/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/message-passing-neural-networks/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Message Passing Neural Networks&amp;rsquo;&#xA;date = 2024-09-23&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GNNs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;MMPNs&amp;rdquo;, &amp;ldquo;GNNs&amp;rdquo;, &amp;ldquo;Graphs&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Message Passing Neural Networks&amp;rsquo;&#xA;date = 2024-09-23&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GNNs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;MMPNs&amp;rdquo;, &amp;ldquo;GNNs&amp;rdquo;, &amp;ldquo;Graphs&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graph Sage</title>
+      <link>https://example.org/posts/graphsage/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/graphsage/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Graph Sage&amp;rsquo;&#xA;date = 2024-07-27&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GNN&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GNNs&amp;rdquo;, &amp;ldquo;GraphSage&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Graph Sage&amp;rsquo;&#xA;date = 2024-07-27&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GNN&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GNNs&amp;rdquo;, &amp;ldquo;GraphSage&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graph Factorisation Methods in Shallow Graphs</title>
+      <link>https://example.org/posts/graph-factorisation-methods-in-shallow-graphs/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/graph-factorisation-methods-in-shallow-graphs/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Graph Factorisation Methods in Shallow Graphs&amp;rsquo;&#xA;date = 2024-07-20&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GNN&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GNNs&amp;rdquo;, &amp;ldquo;Locally Linear Embeddings&amp;rdquo;, &amp;ldquo;Graph Factorisation&amp;rdquo;, &amp;ldquo;GraRep&amp;rdquo;, &amp;ldquo;Laplacian Eigenmaps&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Graph Factorisation Methods in Shallow Graphs&amp;rsquo;&#xA;date = 2024-07-20&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GNN&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GNNs&amp;rdquo;, &amp;ldquo;Locally Linear Embeddings&amp;rdquo;, &amp;ldquo;Graph Factorisation&amp;rdquo;, &amp;ldquo;GraRep&amp;rdquo;, &amp;ldquo;Laplacian Eigenmaps&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instance Normalisation within GANs</title>
+      <link>https://example.org/posts/instance-normalisation-within-gans/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/instance-normalisation-within-gans/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Instance Normalisation within GANs&amp;rsquo;&#xA;date = 2024-07-13&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GANs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GANs&amp;rdquo;, &amp;ldquo;Instance Normalisation&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Instance Normalisation within GANs&amp;rsquo;&#xA;date = 2024-07-13&#xA;categories = [&amp;ldquo;Graphs&amp;rdquo;]&#xA;tags = [&amp;ldquo;GANs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GANs&amp;rdquo;, &amp;ldquo;Instance Normalisation&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

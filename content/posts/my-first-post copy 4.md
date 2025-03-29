@@ -6,4 +6,29 @@ image = "/images/test.jpg"
 categories = ["Programming", "AI", "Machine Learning"]
 +++
 
++++
+date = '2025-01-19T17:34:42Z'
+draft = false
+title = 'My Third Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
++++
+
++++
+date = '2025-01-19T17:34:42Z'
+draft = false
+title = 'My Third Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
++++
+
++++
+date = '2025-01-19T17:34:42Z'
+draft = false
+title = 'My Third Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
++++
+
+
 This is my first markdown post.

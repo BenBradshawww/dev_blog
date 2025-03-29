@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>Dynamic Programming in Solving Palindrome Partitioning</h1>
+    <p class="details">Aug 24, 2024 · 13 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/algorithms">Algorithms</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Dynamic Programming in Solving Palindrome Partitioning&rsquo;
+date = 2024-08-24
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Algorithms&rdquo;]
+keywords = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Palindrome&rdquo;, &ldquo;Algorithms&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Dynamic Programming in Solving Palindrome Partitioning&rsquo;
+date = 2024-08-24
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Algorithms&rdquo;]
+keywords = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Palindrome&rdquo;, &ldquo;Algorithms&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Dynamic Programming in Solving Palindrome Partitioning&rsquo;
+date = 2024-08-24
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Algorithms&rdquo;]
+keywords = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Palindrome&rdquo;, &ldquo;Algorithms&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>title = &lsquo;Dynamic Programming in Solving Palindrome Partitioning&rsquo;
+date = 2024-08-24
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Algorithms&rdquo;]
+keywords = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Palindrome&rdquo;, &ldquo;Algorithms&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Dynamic Programming in Solving Palindrome Partitioning&rsquo;
+date = 2024-08-24
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Algorithms&rdquo;]
+keywords = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Palindrome&rdquo;, &ldquo;Algorithms&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Dynamic Programming in Solving Palindrome Partitioning&rsquo;
+date = 2024-08-24
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Algorithms&rdquo;]
+keywords = [&ldquo;Dynamic Programming&rdquo;, &ldquo;Palindrome&rdquo;, &ldquo;Algorithms&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p><img src="/images/danny-greenberg-cbN8rxHr5S0-unsplash.jpg" alt="Image">
+<a href="https://unsplash.com/@by_danny_g?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Image by Danny Greenberg</a></p>
+<h3 id="summary"><strong>Summary</strong></h3>
+<p>This article explores dynamic programming (DP), a technique used to tackle complex problems in computer science. We will specifically apply DP to two problems involving palindrome partitioning.</p>
+<p><strong><strong>Requirements</strong></strong></p>
+<p>A basic understanding of dynamic programming and some experience with DP problems are recommended before reading this article.</p>
+<p><strong><strong>Definitions</strong></strong></p>
+<p>• <strong><strong>Palindrome</strong></strong>: A string is a palindrome if it reads the same backward as forward. For example, “aba” is a palindrome, while “aab” is not.</p>
+<p>• <strong><strong>Substring</strong></strong>: A substring is a contiguous sequence of characters within a string.</p>
+<h2 id="q1-palindromic-substrings">Q1: Palindromic Substrings</h2>
+<p>Before delving into this question I&rsquo;d recommend attempting it on Leetcode <a href="https://leetcode.com/problems/palindromic-substrings/description/">here</a>.</p>
+<p>This question is as follows. Given a string <code>s</code>, return the number of palindromic substrings in it.</p>
+<p><strong><strong>Brute Force Approach</strong></strong></p>
+<p>At first glance, a brute force approach might seem viable. For a string like <code>abc</code>, you would check each of its 6 substrings (<code>a</code>, <code>b</code>, <code>c</code>, <code>ab</code>, <code>bc</code>, and <code>abc</code>) to see if they are palindromes. Given a string of length $n$, there are $\frac{n(n-1)}{2}$ possible substrings to check. Each palindrome check operation is $\mathcal{O}(n)$, leading to an overall complexity of $\mathcal{O}(n^3)$ for the brute force algorithm. While this approach works for small values of $n$, it becomes computationally expensive as $n$ grows larger.</p>
+<p>To achieve a lower complexity, we can consider more efficient strategies. Dynamic programming is one such approach that can significantly reduce the time complexity. By storing intermediate results and avoiding redundant calculations, dynamic programming can optimise the process of checking palindromes and solving related problems.</p>
+<p><strong><strong>DP Approach</strong></strong></p>
+<p>Given that dynamic programming (DP) can be applied to this problem, let’s explore how it can be utilized effectively. To apply DP, we need to ensure the problem meets the two key requirements: optimal substructure and overlapping sub-problems.</p>
+<p><strong><strong>Overlapping Sub-Problems</strong></strong></p>
+<p>To illustrate overlapping sub-problems, consider a string like <code>aabc</code>. If we know whether a substring like <code>ab</code> is a palindrome, this information can help determine if <code>aabc</code> is a palindrome. Specifically, since <code>ab</code> is not a palindrome, <code>aabc</code> cannot be a palindrome either. This principle also extends to longer strings. For example, if <code>ab</code> is not a palindrome, then <code>aaabca</code> cannot be a palindrome. This shows that smaller sub-problems overlap and their solutions contribute to solving the larger problem.</p>
+<p>In general, if the middle portion of a string is not a palindrome, the whole string cannot be a palindrome. Conversely, if the first and last characters of a string are the same, there is a possibility that the string could be a palindrome, provided the substring between them is also palindromic. If the first and last characters do not match, the string is definitely not a palindrome.</p>
+<p><strong><strong>Optimal Substructure</strong></strong></p>
+<p>Optimal substructure means that the solution to a problem can be constructed from the solutions to its sub-problems. For palindrome checking, the problem can be broken down by determining whether a substring is palindromic or not. The optimal solution to any of the subproblem is either a True or False boolean. Consequently, any solution to the subproblem is the optimal solution.</p>
+<p>Given the solution to this problem can be constructed using overlapping sub-problems and optimal substructure, DP can be used, more specifically we&rsquo;ll be implementing bottom-up DP. We&rsquo;ll illustrate this example by using the string <code>abaa</code> as the example problem for the rest of this section.</p>
+<p>We&rsquo;ll create bottom-up DP table where each index in the array corresponds to a substring of the string <code>abaa</code>. Specifically, row index i and column index j corresponds to the substring from index i to j .</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p>Let’s start by filling out the DP table for substrings of length 1. Since every single character is inherently a palindrome, the cells corresponding to substrings of length 1 will all be True.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>T</td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>T</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+      </tr>
+  </tbody>
+</table>
+<p>For substrings of length 2, we check whether each pair of adjacent characters in the string are the same. A substring of length 2 is a palindrome if and only if both characters are identical.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>T</td>
+          <td>F</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>T</td>
+          <td>F</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>T</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+      </tr>
+  </tbody>
+</table>
+<p>Now this is where the algorithm could get tricky to understand. Starting at string from index 0 to index 2 (<code>aba</code>). In this example, we first check that the first and last letter align. Next we would need to check if the substring between the first and last letter is a palindrome (substring <code>b</code>). Since we have computed smaller subproblems and stored their values within the grid we can check position row 1 and column 1. This is True. Hence (<code>aba</code>) is a palindrome.</p>
+<p>Next we&rsquo;ll look at substring from index 1 to 3 (<code>baa</code>). Since the first and last letters do not align, we know this substring cannot be a palindrome. So we fill the corresponding grid position with False.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>T</td>
+          <td>F</td>
+          <td>T</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>T</td>
+          <td>F</td>
+          <td>F</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>T</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+      </tr>
+  </tbody>
+</table>
+<p>The final substring to check is from index 0 to 3 (<code>abaa</code>). Since the first and last letters align, we&rsquo;ll next check if the substring <code>ba</code> is a palindrome. To determine this we check the cell in the grid corresponding to row 1 and column 2 (substring <code>ba</code>). This gives a value of False, so we know <code>abaa</code> is not a palindrome.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>T</td>
+          <td>F</td>
+          <td>T</td>
+          <td>F</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>T</td>
+          <td>F</td>
+          <td>F</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+          <td>T</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>T</td>
+      </tr>
+  </tbody>
+</table>
+<p>Summing over the number of True values in the grid above tells us that there are 6 substring palindromes.</p>
+<p>This application of DP may seem trivial however, we have now reduced the run-time complexity of the algorithm to $\mathcal{O}(n^{2})$. This is a consequence of storing the smaller subproblems which are used to solve the larger palindromes later on.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">countSubstrings</span>(self, s: str) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>n <span style="color:#f92672">=</span> len(s)
+</span></span><span style="display:flex;"><span>dp <span style="color:#f92672">=</span> [[<span style="color:#66d9ef">False</span>]<span style="color:#f92672">*</span>n <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n)]
+</span></span><span style="display:flex;"><span>ans <span style="color:#f92672">=</span> n
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>dp[i][i] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> s[j] <span style="color:#f92672">==</span> s[i] <span style="color:#f92672">and</span> (i<span style="color:#f92672">-</span>j<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">or</span> dp[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]):
+</span></span><span style="display:flex;"><span>dp[j][i] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>ans <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> ans
+</span></span></code></pre></div><h2 id="q2-palindromic-partitioning-ii">Q2: Palindromic Partitioning II</h2>
+<p>Given a string <code>s</code>, partition <code>s</code> such that every  substring of the partition is a palindrome.Return the minimum cuts needed for a palindrome partitioning of <code>s</code>.</p>
+<p>Similar to the question above, I&rsquo;d recommend trying out this question beforehand <a href="https://leetcode.com/problems/palindrome-partitioning-ii/description/">here</a>.</p>
+<p>There are 3 different approaches to solving this problem. First the brute force approach, second the DP approach, and finally the optimised DP approach.</p>
+<p><strong><strong>Brute Force Approach</strong></strong></p>
+<p>Given a string of length n, there are n-1 potential places to cut the string, which gives $2 ^{n}$ ways we could cut the string. Checking that each cut has produced palindromes is an $\mathcal{O}(n)$ operation. As a result, this method has a complexity of $\mathcal{O}(n 2 ^{n})$. For large n this method is computationally expensive.</p>
+<p><strong><strong>DP Approach</strong></strong></p>
+<p>Similar to the last question, we&rsquo;ll check to see if DP is appropriate here by checking for optimal substructure and overlapping sub-problems.</p>
+<p><strong><strong>Optimal Substructure</strong></strong></p>
+<p>The optimal substructure is somewhat harder to recognize. For a substring <code>abc</code> of string <code>abcd</code>, the optimal number of cuts for <code>abc</code> (2 cuts) can be used to determine the optimal number of cuts for <code>abcd</code> (3 cuts). However, this approach has a complication due to edge cases where palindromic strings contain non-palindromic substrings. For example, the substring <code>ab</code> of string <code>abba</code> is not palindromic, however its parent string is a palindrome. Therefor, the number of cuts for <code>ab</code> does not need to be used in string <code>abba</code>.</p>
+<p><strong><strong>Overlapping Subproblems</strong></strong></p>
+<p>The overlapping subproblems should be easy to spot. For example, if we have a non-palindromic string <code>abcd</code>, the number of cuts needed for the substring <code>abc</code> (2 cuts) could be used to help determine the number of cuts needed to cut string <code>abcd</code> (3 cuts). Similarly, the cuts from the substring <code>abc</code> can help determine the number of cuts needed for the substring <code>aabcd</code>. Consequently, there are overlapping subproblems.</p>
+<p>To implement DP for this problem, we need to create two arrays. The first array will indicate whether substrings are palindromic or not, using the same method as in the first question. This array helps handle edge cases where the entire string is a palindrome but its substrings are not.</p>
+<p>The second array is a 2D DP array that will determine the number of cuts needed for any substring. Similar to the previous question, each cell in this array corresponds to a substring starting at index x and ending at index y in the original string. The value in the cell represents the optimal number of cuts required for that substring.</p>
+<p>To demonstrate this method, we will be trying to figure out the optimal number of cuts needed for string <code>abaa</code> such that each cut substring is palindromic.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p>Similar to the last question, we&rsquo;ll start with the substrings of length 1. Since every string of length 1 is palindromic, 0 cuts are needed.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p>Now we move onto the strings of length two starting from indexes 0 to 1 (substring <code>ab</code>). Checking the corresponding index positions in the first DP array tells us that this string is not a palindrome. So a cut is needed. Perform the same procedure for the two other substrings of length 2 gives:</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>0</td>
+          <td>1</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p>The final substring between indexes 2 and 3 (<code>aa</code>) required 0 cuts. This is because when we checked the corresponding indexes in our first DP array, it indicated that the substring was a palindrome, so no cuts were needed.</p>
+<p>Next, we check substrings of length 3, starting from indexes 0 to 2 (<code>aba</code>). By referencing the first array, we see that this substring is also a palindrome, so 0 cuts are needed.</p>
+<p>For the next substring (<code>baa</code>), we know it is not a palindrome. To determine the optimal cuts, we loop through the potential cut positions and evaluate which cut yields the best result. Let’s start with a cut between <code>b</code> and <code>aa</code>. Checking row 1 and column 1 in the DP array, we find that the substring <code>b</code> requires 0 cuts to be a palindrome. Similarly, checking row 2 and column 3 shows that <code>aa</code> also requires 0 cuts. Therefore, making a cut here would result in 1 cut to make the entire substring a palindrome.</p>
+<p>Next, we check the cut between <code>ba</code> and <code>a</code>. The corresponding indexes in the array show that <code>ba</code> requires 1 cut to become a palindrome, while <code>a</code> requires 0 cuts.</p>
+<p>Consequently, the minimum number of cuts for the substring <code>baa</code> is 1, which occurs when we cut between <code>b</code> and <code>aa</code>. We fill the DP cell with this value, as it represents the fewest additional cuts needed.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p>For the final string we again check the first DP array to see if it&rsquo;s a palindrome. It is not, so now we have to go through the 3 cut positions to see which produces the fewest remaining cuts.</p>
+<p>The cut positions we&rsquo;ll check are <code>a</code> and <code>baa</code>, <code>ab</code> and <code>aa</code>, and <code>aba</code> and <code>a</code>. Checking the corresponding substring positions in the DP array tells us that substring <code>aba</code> and <code>a</code> require the fewest number of additional cuts (0 additional cuts). So we&rsquo;ll fill in the cell with 1 (for our first cut).</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>0</th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td></td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table>
+<p>Checking the final value at row 0 column 3 gives us 1. So 1 cut is needed to make all substrings palindromic.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">minCut</span>(self, s: str) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>n <span style="color:#f92672">=</span> len(s)
+</span></span><span style="display:flex;"><span>dp_pali <span style="color:#f92672">=</span> [[<span style="color:#66d9ef">False</span>]<span style="color:#f92672">*</span>n <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>dp_pali[i][i] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> s[j] <span style="color:#f92672">==</span> s[i] <span style="color:#f92672">and</span> (i<span style="color:#f92672">-</span>j<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">or</span> dp_pali[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]):
+</span></span><span style="display:flex;"><span>dp_pali[j][i] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dp_cuts <span style="color:#f92672">=</span> [[float(<span style="color:#e6db74">&#39;inf&#39;</span>)]<span style="color:#f92672">*</span>n <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>dp_cuts[i][i] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, n):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(j, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> dp_pali[i][j]:
+</span></span><span style="display:flex;"><span>dp_cuts[i][j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, j):
+</span></span><span style="display:flex;"><span>dp_cuts[i][j] <span style="color:#f92672">=</span> min(<span style="color:#ae81ff">1</span><span style="color:#f92672">+</span>dp_cuts[i][k]<span style="color:#f92672">+</span>dp_cuts[k<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][j], dp_cuts[i][j])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> dp_cuts[<span style="color:#ae81ff">0</span>][<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span></code></pre></div><p>This method works but under time complexity requirements, this method needs to be further optimised. This algorithm suffers from complexity $\mathcal{O}(n^{3})$ as a consequence of $\mathcal{O}(n^{2})$ substrings being checked, with each check being an $\mathcal{O}(n)$ operation.</p>
+<p>I&rsquo;d recommend watching the video by Tushar <a href="https://www.youtube.com/watch?v=lDYIvtBVmgo&amp;t=1s">here</a> to gain a deeper understanding of this question.</p>
+<p><strong><strong>Optimised DP Approach</strong></strong></p>
+<p>This optimised DP approach reduces the complexity of the previous DP approach to $\mathcal{O}(n^{2})$ by reducing the complexity of the partitioning cuts from $\mathcal{O}(n^{3})$ to $\mathcal{O}(n^{2})$.</p>
+<p>Rather than checking every substring to determine the minimum number of cuts needed, only the $n$ substrings starting from index 0 will be checked. For example, for the string <code>abaa</code> we will only check string <code>a</code>, <code>ab</code>, <code>aba</code>, and <code>abaa</code> to determine the minimum number of cuts needed.</p>
+<p>We&rsquo;ll create a 1 dimensional DP array, where index x corresponds to the minimum cuts needed to make a substring from index 0 to x a palindrome and we&rsquo;ll also be using our DP array from question 1 to determine whether the substring is a palindrome or not.</p>
+<p>Iterate through the $n$ substrings from smallest to largest. If the substring is a palindrome (found using our first DP array) then we know 0 cuts are needed. So we&rsquo;ll set the corresponding column index to 0. If we are at index x and the substring from index 0 to x is not a palindrome then we iterate through the indexes from 0 to x checking to see if the substring from our new index to x is a palindrome. If so we know 0 cuts are needed to convert the subsequent string to a palindrome and we&rsquo;ll know the minimum cuts needed to make the previous substring a palindrome (since it was stored in our DP array in a previous iteration of this method).</p>
+<p>This is best explained with an example. Let&rsquo;s use the final substring <code>abaa</code>. Since this is not a palindrome we&rsquo;ll iterate from 0 to x, checking to see if the subsequent substring is a palindrome. <code>baa</code> is not, so we go to the next index. <code>aa</code> is a palindrome. With this information we know that no more cuts are needed to make the subsequent substring (<code>aa</code>) a palindrome and we have stored the minimum cuts needed to make <code>ab</code> a palindrome from a previous iteration.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">minCut</span>(self, s: str) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>n <span style="color:#f92672">=</span> len(s)
+</span></span><span style="display:flex;"><span>dp_pali <span style="color:#f92672">=</span> [[<span style="color:#66d9ef">False</span>]<span style="color:#f92672">*</span>n <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span>dp_pali[i][i] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> s[j] <span style="color:#f92672">==</span> s[i] <span style="color:#f92672">and</span> (i<span style="color:#f92672">-</span>j<span style="color:#f92672">&lt;=</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">or</span> dp_pali[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]):
+</span></span><span style="display:flex;"><span>dp_pali[j][i] <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dp_cuts <span style="color:#f92672">=</span> [float(<span style="color:#e6db74">&#39;inf&#39;</span>)]<span style="color:#f92672">*</span>n
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> dp_pali[<span style="color:#ae81ff">0</span>][i]:
+</span></span><span style="display:flex;"><span>dp_cuts[i] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> dp_pali[j<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][i]:
+</span></span><span style="display:flex;"><span>dp_cuts[i] <span style="color:#f92672">=</span> min(dp_cuts[i], <span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> dp_cuts[j])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> dp_cuts[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+</span></span></code></pre></div><h3 id="conclusion">Conclusion</h3>
+<p>This article delved into 2 DP approaches used to solve problems related to palindrome partitions.</p>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

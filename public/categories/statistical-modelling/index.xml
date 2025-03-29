@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistical Modelling on My New Hugo Site</title>
+    <link>https://example.org/categories/statistical-modelling/</link>
+    <description>Recent content in Statistical Modelling on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/categories/statistical-modelling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GAMs</title>
+      <link>https://example.org/posts/gams/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/gams/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;GAMs&amp;rsquo;&#xA;date = 2024-12-18&#xA;categories = [&amp;ldquo;Statistical Modelling&amp;rdquo;]&#xA;tags = [&amp;ldquo;GAMs&amp;rdquo;, &amp;ldquo;GLMs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GAMs&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;GAMs&amp;rsquo;&#xA;date = 2024-12-18&#xA;categories = [&amp;ldquo;Statistical Modelling&amp;rdquo;]&#xA;tags = [&amp;ldquo;GAMs&amp;rdquo;, &amp;ldquo;GLMs&amp;rdquo;]&#xA;keywords = [&amp;ldquo;GAMs&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

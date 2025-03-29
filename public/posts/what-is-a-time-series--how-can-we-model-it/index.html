@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>What is a Time Series &amp; How can we Model it?</h1>
+    <p class="details">Oct 5, 2024 · 10 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/time-series">Time Series</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;What is a Time Series &amp; How can we Model it?&rsquo;
+date = 2024-10-05
+categories = [&ldquo;Time Series&rdquo;]
+tags = [&ldquo;Statistics&rdquo;, &ldquo;Time Series&rdquo;]
+keywords = [&ldquo;Time Series&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;What is a Time Series &amp; How can we Model it?&rsquo;
+date = 2024-10-05
+categories = [&ldquo;Time Series&rdquo;]
+tags = [&ldquo;Statistics&rdquo;, &ldquo;Time Series&rdquo;]
+keywords = [&ldquo;Time Series&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;What is a Time Series &amp; How can we Model it?&rsquo;
+date = 2024-10-05
+categories = [&ldquo;Time Series&rdquo;]
+tags = [&ldquo;Statistics&rdquo;, &ldquo;Time Series&rdquo;]
+keywords = [&ldquo;Time Series&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>title = &lsquo;What is a Time Series &amp; How can we Model it?&rsquo;
+date = 2024-10-05
+categories = [&ldquo;Time Series&rdquo;]
+tags = [&ldquo;Statistics&rdquo;, &ldquo;Time Series&rdquo;]
+keywords = [&ldquo;Time Series&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;What is a Time Series &amp; How can we Model it?&rsquo;
+date = 2024-10-05
+categories = [&ldquo;Time Series&rdquo;]
+tags = [&ldquo;Statistics&rdquo;, &ldquo;Time Series&rdquo;]
+keywords = [&ldquo;Time Series&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;What is a Time Series &amp; How can we Model it?&rsquo;
+date = 2024-10-05
+categories = [&ldquo;Time Series&rdquo;]
+tags = [&ldquo;Statistics&rdquo;, &ldquo;Time Series&rdquo;]
+keywords = [&ldquo;Time Series&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p><img src="/images/oguzhan-kiran-wj0l2BJKmkU-unsplash.jpg" alt="Image">
+<a href="https://mathstoml.ghost.io/ghost/#/editor/post/66eb4a6473445600016630bb">Image by Oğuzhan Kıran</a></p>
+<p>This article will cover what is a time series, what does it mean for a time series to be stationary, and how could an autoregressive process or moving average process be used to model the time series.</p>
+<p>Before starting this article, I would like to mention the Cambridge notes from <a href="https://www.statslab.cam.ac.uk/~rrw1/timeseries/t.pdf">here</a> form the foundation of this content.</p>
+<h2 id="what-is-a-time-series">What is a Time Series?</h2>
+<p>In short, time series is area of statistics which focuses on describing a set of data points which are collected on regular intervals by fitting low-dimensional models and making forecasts.</p>
+<p>Any time series data can be broken down into 4 components:</p>
+<ol>
+<li>Trend $(T_{t})$: The long term movements of the mean.</li>
+<li>Seasonal effects $(I_{t})$: Calendar based fluctuations.</li>
+<li>Cycles $(C_{t})$: Cyclical fluctuations.</li>
+<li>Residuals $(E_{t})$: The random fluctuations.</li>
+</ol>
+<p>Using these 4 components, any time series sample $X_{t}$ can be decomposed into these 4 components either additively or multiplicatively:</p>
+$$X_{t} = T_{t} + I_{t} + C_{t} + E_{t},$$$$X_{t} = T_{t} \cdot I_{t} \cdot C_{t} \cdot E_{t}.$$<p>The distribution of a sequence of time series $(X_{t}, \dots, X_{t+k})$ can take many forms with some examples including:</p>
+<ul>
+<li>Normal Distribution: The samples could follow a normal distribution where most data is concentrated around the mean and has fewer points on the tail.</li>
+<li>Skewed Distribution: The time series exhibits skewness where the distribution is skewed to the left or right and so the data is not symmetric around the mean.</li>
+<li>Heavy-Tailed: Here the time series has a greater number of outliers.</li>
+<li>Discrete Distribution: In this example, the time series could only take discrete values.</li>
+</ul>
+<p>Time series can be split into two categories depending on the properties of the time series: stationary or non-stationary. A stationary time series has a fixed mean, variance, and autocorrelation which helps us capture the time series&rsquo;s patterns and relationships allowing for more accurate forecasts. A non-stationary time series may have trends, seasonality, or changing volatility, making it harder to create forecasts.</p>
+<h2 id="stationary-time-series">Stationary Time Series</h2>
+<p>Given a sequence of data points $\{ X_{t}, t \in \mathbb{Z} \}$, the sequence is <strong><strong>strongly stationary</strong></strong> or <strong><strong>strictly stationary</strong></strong> if</p>
+$$\left( X_{t_{1}}, \dots, X_{t_{k}}\right) \overset{d}{=} \left( X_{t_{1} + h}, \dots, X_{t_{k} + h}\right),$$<p>for all the time points $t_{1}, \dots, t_{k}$ and integer $h$. Note that when we use $X \overset{d}{=} Y$, this means the CDF of the two probability distributions $X$ and $Y$ are the same, formally, $\mathbb{P}(X \leq x) = \mathbb{P}(Y \leq x)$. This implies the mean, variance, and higher moments are the same.</p>
+<p>A sequence is <strong><strong>weakly stationary</strong></strong> or <strong><strong>second order stationary</strong></strong> if</p>
+$$\begin{aligned} \mathbb{E}(X_{t}) &= \mu \\ \text{and} \quad \text{Cov}(X_{t}, X_{t+k}) &= \mathbb{E}[(X_{k} - \mu)(X_{t+k} - \mu)] = \gamma_{k}, \end{aligned}$$<p>where $\mu$ is constant and $\gamma_{k}$ is independent of $t$ and the sequence $\{ \gamma_{k}, k \in \mathbb{Z} \}$ is called the autocovariance function. At the lag 0, $\gamma_{0} = \mathbb{E}[(X_{k} - \mu)^{2}] = \text{Var}(X_{k})$.</p>
+<p>Further define,</p>
+$$\begin{aligned}\rho_{k} = \gamma_{k} / \gamma_{0} &= \frac{\mathbb{E}[(X_{k} - \mu)(X_{t+k} - \mu)]}{\sqrt{\text{Var}(X_{t})\text{Var}(X_{t+k})}} \\ &= \frac{\mathbb{E}[(X_{k} - \mu)(X_{t+k} - \mu)]}{\text{Var}(X_{t})} \\ &= \text{Corr}(X_{t}, X_{t+k}),\end{aligned}$$<p>where $\rho_{k}$ is the autocorrelation at lag k and the plot of the autocorrelations $\{\rho_0, \dots, \rho_k \}$ is referred to as the autocorrelation function. The autocorrelation function helps identify patterns in the time series, such as periodicity (repeating cycles) or trends. If the autocorrelation decays slowly as the lag h increases, it suggests a trend or long-term dependence. If the autocorrelation exhibits periodic patterns, it indicates seasonality or cycles in the data.</p>
+<p>In general, weak stationarity is a weaker condition than strong stationarity because the weakly stationary time series may have a fixed mean, variance, and autocorrelation, however the time series may not follow the same probability distribution and the weakly stationary time series moments (see the appendix) may vary overtime.</p>
+<p>Properties of a stationary time series:</p>
+<ul>
+<li>A strictly stationary process is weakly stationary.</li>
+<li>If $X_{t}$ is truly random, then $\gamma_{0} = \text{Var}(X_{t}) > 0$.</li>
+<li>By symmetry $\text{Cov}(X_t, X_{t-k}) = \text{Cov}(X_{t-k}, X_t)$, so $\gamma_{k} = \gamma_{-k} \ \forall k$.</li>
+</ul>
+<p>Now that we know the difference between the type of time series data, we can start to model it.</p>
+<h2 id="autoregressive-process">Autoregressive Process</h2>
+<p>The first way to model any stationary time series is as an autoreggresive process where the current value of the series is expressed as a linear combination of its past values and a random error term (or white noise). Specifically, an autoregressive process of order $p$ is denoted as AR($p$) and can be written as:</p>
+$$X_{t} = \sum_{r=1}^{p} \phi_{r} X_{t-r} + \epsilon_{t},$$<p>where $\phi_{1}, \dots, \phi_{r}$ are fixed constants referred to as autoregressive coefficients which determine how much influence each lagged coefficient has on the current and $\{\epsilon_{t}\}$ is a sequence of independent random variables with mean 0 and variance $\sigma^{2}$, this random variable is often referred to as white noise.</p>
+<p>To find the parameters of this model, we&rsquo;ll need to use the autocovariance function. For simplicity, we&rsquo;ll use the AR(1) process:</p>
+$$\begin{equation} X_{t} = \phi X_{t-1} + \epsilon_{t},\end{equation}$$<p>First by multiplying (1) by $X_{t-k}$ and taking the expected value gives:</p>
+$$\begin{aligned} \mathbb{E}[X_{t}X_{t-k}] &= \mathbb{E}[\phi X_{t-1}X_{t-k}] + \mathbb{E}[\epsilon_{t}X_{t-k}] \\\mathbb{E}[X_{t}X_{t-k}] &= \phi \mathbb{E}[X_{t-1}X_{t-k}] + \mathbb{E}[\epsilon_{t}] \cdot \mathbb{E}[X_{t-k}] \\ \gamma_k &= \phi \gamma_{k-1} + 0 \cdot \mathbb{E}[X_{t-k}] \\ \gamma_{k} &= \phi \gamma_{k-1}.\end{aligned}$$<p>Since the terms $\gamma_{k}$ can be solved using $\gamma_{k} = \frac{1}{N}\sum_{t=1}^{N-k}\mathbb{E}[(X_{t} - \bar{X})(X_{t+k} - \bar{X})]$, we now have a way to find the parameters $\phi$.</p>
+<p>The final term to estimate is the white noise $\epsilon_{t}$. To find an equation for this term, we&rsquo;ll start by squaring (1) and then taking the expected value. This gives:</p>
+$$\begin{aligned} \mathbb{E}[X_{t}^{2}] &= \mathbb{E}[(\phi X_{t-1} + \epsilon_{t})^{2}] \\ \mathbb{E}[X_{t}^{2}] &= \phi_{1}^{2}\mathbb{E}[X_{t-1}^{2}] + 2 \phi_{1} \mathbb{E}[X_{t-1}\epsilon_{t}] + \mathbb{E}[\epsilon_{t}^{2}] \\ \gamma_{0} &= \phi_{1}^{2}\gamma_{0} + 0 + \sigma^{2}, \end{aligned}$$<p>so $ \gamma_{0} (1 - \phi_{1}^{2}) = \sigma^{2}$.</p>
+<p>Now that we know how to find the parameters of an AR(1) model, we can define this for any AR process. Defining AR(p) as</p>
+$$\begin{equation}X_{t} = \phi_{1} X_{t-1} +\phi_{1} X_{t-1} \dots \phi_{p} X_{t-p} + \epsilon_{t}.\end{equation}$$<p>If we were to multiply (2) by $X_{t-k}$, take the expected value, and divide by $\gamma_{0}$ we will end up producing the Yule-Walker equations:</p>
+$$\rho_{t} = \phi_{1} \rho_{t-1} +\phi_{1} \rho_{t-1} \dots \phi_{p} \rho_{t-p}, \quad k=1, 2, \dots$$<p>This can be solved using the autocovariance matrix (a Toeplitz matrix):</p>
+$$\begin{pmatrix} \gamma_0 & \gamma_1 & \cdots & \gamma_{p-1} \\ \gamma_1 & \gamma_0 & \cdots & \gamma_{p-2} \\ \vdots & \vdots & \ddots & \vdots \\ \gamma_{p-1} & \gamma_{p-2} & \cdots & \gamma_0 \end{pmatrix} \begin{pmatrix} \phi_1 \\ \phi_2 \\ \vdots \\ \phi_p \end{pmatrix} = \begin{pmatrix} \gamma_1 \\ \gamma_2 \\ \vdots \\ \gamma_p \end{pmatrix}$$<p>Now that the AR coefficients are estimated. The variance for the white noise $\sigma^{2}$ can be computed using:</p>
+$$\sigma^{2} = \gamma_0 - \sum_{i=1}^{p}\phi_i \gamma_i$$<h2 id="moving-average-process">Moving Average Process</h2>
+<p>Given a centred time series, an alternative way to model this time series is by using a moving average process of order $q$ denoted by $MA(q)$ is defined as</p>
+$$X_{t} = \sum_{i=0}^{q} \theta_{i} \epsilon_{t-i},$$<p>where $\theta_{1}, \dots, \theta_{q}$ are fixed constants where $\theta_{0} = 1$ and $ \{\epsilon_{0},\dots ,\epsilon_{t} \}$ is an independent random variable with mean 0 and variance $\sigma^{2}$, we&rsquo;ll call this term the white noise term.</p>
+<p>A moving average process uses the idea that time series data contains fluctuations which can be exploited to model the short-term variations in the time series.</p>
+<p>Fitting the moving average model is no more complicated than fitting an autoregressive model. Given an MA(1) model:</p>
+$$\begin{equation} X_{t} = \theta_{1} \epsilon_{t-1} + \epsilon_{t}\end{equation}$$<p>First we&rsquo;ll create an equation for $\theta_1$ and $\sigma^{2}$ using $\gamma_0$ by multiplying (3) by $X_{t}$ and taking the expectation giving:</p>
+$$\gamma_{0} = \mathbb{E}[X_{t}^{2}] = \mathbb{E}[(\epsilon_t + \epsilon_{t-1}\theta_1)^{2} ] = \sigma^{2}(1 + \theta_{1}^{2})$$<p>The second equation will be formed by multiplying (3) by $X_{t-1}$ and taking the expectation:</p>
+$$\gamma_1 = \mathbb{E}[X_{t} X_{t-1}] = \mathbb{E}[(\epsilon_t + \epsilon_{t-1}\theta_1) (\epsilon_{t-1} + \epsilon_{t-2}\theta_1)] = \theta_1 \sigma^{2}.$$<p>Next using the autocorrelation at lag 1:</p>
+$$\rho_1 = \frac{\gamma_{1}}{\gamma_0} = \frac{\theta_1 \sigma^2}{\sigma^2(1 + \theta_1^2)} = \frac{\theta_1}{1 + \theta_1^2}.$$<p>For larger models, with more parameters, the combination of the Yule Walkers equations and the Toeplitz matrix will be the easiest way to find the model&rsquo;s parameters.</p>
+<p>Moving average processes are particularly effective when a time series exhibits short-term dependencies, as they are designed to capture the immediate correlations between shocks. However, their primary limitation lies in this very reliance on short-term relationships, making them less suited to modelling long-term dependencies in the data.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Today we covered what is a time series and how we could model a time series using basics processing techniques such as AR and MA. The next article will build on these methods introducing the ARMA models which combine both the AR and MA processes.</p>
+<h2 id="appendix">Appendix</h2>
+<p><strong><strong>Moments:</strong></strong> Moments are quantitative measures of distribution used to describe its shape and characteristics.</p>
+<p><strong><strong>First Moment:</strong></strong> The first moment (mean) is a measure to determine the central tendency of data. For a random variable from a continuous probability distribution, the first moment is written as:</p>
+$$\text{MEAN} = \mathbb{E}[X] = \int_{-\infty}^{\infty} x f(x) d x.$$<p><strong><strong>Second Moment:</strong></strong> The second moment measures the spread of the distribution. It is written as:</p>
+$$\text{VARIANCE} = \text{Var}[X] = \mathbb{E}[(X - \mathbb{E}[X])^{2}].$$<p><strong><strong>Third Moment:</strong></strong> The third moment measures the asymmetry of a distribution. It is written as:</p>
+$$\text{SKEWNESS} = \frac{\mathbb{E}[(X - \mathbb{E}[X])^{3}]}{\sigma^{3}}.$$<p>If the skewness if positive, than the distribution has a longer tail on the left and the bulk of the data is concentrated on the right. If the skewness is negative, then the distribution has a longer tail on the right and the bulk of the data is concentrated on the left. If the skewness is 0, the data is symmetric.</p>
+<p><strong><strong>Fourth Moment:</strong></strong> The fourth moment measures the peakedness of a distribution and tells us how of the variance is a result of extreme outliers. It can be written as:</p>
+$$\text{KURTOSIS} = \frac{\mathbb{E}[(X - \mathbb{E}[X])^{4}]}{\sigma^{4}}.$$<p>Interpretation:</p>
+<ul>
+<li>High Kurtosis (Leptokurtic): The kurtosis is greater than 3, than the distribution has more extreme values (fatter tails).</li>
+<li>Low Kurtosis (Platykurtic): The kurtosis is less than 3, than the distribution has fewer extreme values (thinner tails).</li>
+<li>Normal Kurtosis (MesoKurtic): A kurtosis of 3 is the same as a normal distribution.</li>
+</ul>
+<p><strong><strong>Fixed Form Solution:</strong></strong> A fixed-form solution (also known as a closed-form solution) refers to a solution to a problem that can be written down in a finite number of operations, without the need for iterative methods, approximation, or numerical optimization.</p>
+<h2 id="references">References:</h2>
+<p>TIME SERIES Contents. (n.d.). Available at: <a href="https://www.statslab.cam.ac.uk/~rrw1/timeseries/t.pdf">https://www.statslab.cam.ac.uk/~rrw1/timeseries/t.pdf</a>.</p>
+<p>‌</p>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

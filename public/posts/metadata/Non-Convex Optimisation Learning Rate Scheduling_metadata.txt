@@ -1,0 +1,7 @@
++++
+title = 'Non-Convex Optimisation Learning Rate Scheduling'
+draft = false
+date = '2024-06-20'
+image = "/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
++++

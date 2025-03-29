@@ -7,16 +7,44 @@ categories = ["Programming", "AI", "Machine Learning"]
 math = true
 +++
 
++++
+date = '2025-01-19T17:34:44Z'
+draft = false
+title = 'My True First Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
+math = true
++++
+
++++
+date = '2025-01-19T17:34:44Z'
+draft = false
+title = 'My True First Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
+math = true
++++
+
++++
+date = '2025-01-19T17:34:44Z'
+draft = false
+title = 'My True First Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
+math = true
++++
+
+
 Over the last 10 years, transformer based architectures have surpassed the prior state of the art models in natural language processing tasks, computer vision tasks, and in foundation model creation. However, many researchers has questioned their performance in time series forecasting.
 
-In time series forecasting, transformer based architectures typically embed multiple variates of the same timestamp into indistinguishable channels (i.e. the variables at one timestamp are encoded into a single embedding). We'll call these as temporal tokens. Attention based mechanism will then applied to these temporal tokens to capture temporal dependencies. 
+In time series forecasting, transformer based architectures typically embed multiple variates of the same timestamp into indistinguishable channels (i.e. the variables at one timestamp are encoded into a single embedding). We'll call these as temporal tokens. Attention based mechanism will then applied to these temporal tokens to capture temporal dependencies.
 
 Using an attention mechanism enables the model to learn which timestamps are most relevant to predict the target value at a specific point in time. There are benefits to this approach such as:
 1. Long-Range dependency capture. Self-attention is able to capture complex dependencies over long horizons, which is typically not possible in traditional RNNs.
 2. Unified Handling of Multivariate Data. All the variables at a timestep are combined into one, simplifying the representation of multivariate relationships.
 3. Parallelisation. Many of these temporal tokens can be processed in parallel, providing a more effective training process over RNNs.
 
-However, even with these token embedding methods, simple linear layers (such as ARIMA based models) tend to outperform the complicated transformers. One of the reasons behind this is because these models can ensure that the multivariate correlations in time series forecasting will not impact the model's accuracy. 
+However, even with these token embedding methods, simple linear layers (such as ARIMA based models) tend to outperform the complicated transformers. One of the reasons behind this is because these models can ensure that the multivariate correlations in time series forecasting will not impact the model's accuracy.
 
 By embedding the multivariate features, the variables independence cannot be preserved which may limit the model's ability to capture the complex multivariate dependencies. This becomes an issue because transformers are meant to model temporal dependencies but they are not meant to incorporate inter-variable correlations.
 
@@ -26,7 +54,7 @@ As a result of the potential risks involved in embedding multivariate points of 
 
 ### The Background To The Problem
 
-In general, the authors of the iTransformer categorised time-series transformer based architectures into 4 different categories depending on whether the architecture or the component is modified. 
+In general, the authors of the iTransformer categorised time-series transformer based architectures into 4 different categories depending on whether the architecture or the component is modified.
 
 The first of these categories (and the most common category) modifies the component, specifically focusing on modifying the attention mechanism. However, the success of these methods have been put under question because they struggle to surpass the success of simpler linear methods.
 
@@ -58,7 +86,7 @@ Each of the 3 components in the TrmBlock were carefully chosen to be kept in thi
 
 ## Results
 
-The iTransformer performance was evaluated on 7 of the standard time series benchmarks against 10 state of the art models including Transformer-based models, Linear-based models, and TCN-based models. The results of the models performance are displayed below. The red number indicate the best performing model and the blue indicate the second best result for the corresponding benchmark. 
+The iTransformer performance was evaluated on 7 of the standard time series benchmarks against 10 state of the art models including Transformer-based models, Linear-based models, and TCN-based models. The results of the models performance are displayed below. The red number indicate the best performing model and the blue indicate the second best result for the corresponding benchmark.
 
 ![](/images/itransformer_performance.png)
 

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>Graph Sage</h1>
+    <p class="details">Jul 27, 2024 · 9 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/graphs">Graphs</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Graph Sage&rsquo;
+date = 2024-07-27
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GNN&rdquo;]
+keywords = [&ldquo;GNNs&rdquo;, &ldquo;GraphSage&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Graph Sage&rsquo;
+date = 2024-07-27
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GNN&rdquo;]
+keywords = [&ldquo;GNNs&rdquo;, &ldquo;GraphSage&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Graph Sage&rsquo;
+date = 2024-07-27
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GNN&rdquo;]
+keywords = [&ldquo;GNNs&rdquo;, &ldquo;GraphSage&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>title = &lsquo;Graph Sage&rsquo;
+date = 2024-07-27
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GNN&rdquo;]
+keywords = [&ldquo;GNNs&rdquo;, &ldquo;GraphSage&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Graph Sage&rsquo;
+date = 2024-07-27
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GNN&rdquo;]
+keywords = [&ldquo;GNNs&rdquo;, &ldquo;GraphSage&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Graph Sage&rsquo;
+date = 2024-07-27
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GNN&rdquo;]
+keywords = [&ldquo;GNNs&rdquo;, &ldquo;GraphSage&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p><img src="/images/cajeo-zhang-20JfNRPsMCo-unsplash.jpg" alt="Image">
+<a href="https://unsplash.com/@cajeo?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Image by Cajeo Zhang</a>
+Graphs have been used across many fields due to their ability to represent relationships between entities with applications including social networks, search engines, and protein-protein interaction networks. However, one growing limitation of these graphs are the amount of computational resources they require with some large-scale graphs having millions of nodes each with their own set of features and their set of edges.</p>
+<p>This has led to the creation of graph embedding methods, more specifically the deep embedding methods. These embedding methods aim to create a high-quality representation of the nodes and their edges. Rather than just incorporating the graph structural information into an embedding, these methods also include node and edges features and other hierarchical information. This results in a complicated model which are able to learn very rich representations of nodes.</p>
+<p>Deep embedding methods use neural networks called graph neural networks (GNNs) to create these deep embeddings. GNNs consists of many layers, with each layer consisting of a message passing (neighbourhood aggregation) system and an update function. The message passing aggregates the information from its neighbours while the update function use these aggregations to update the node&rsquo;s current representation within the layer.</p>
+<p>There are many different GNNs with many specialised for different tasks. Some incorporate temporal dynamics, others incorporate attention mechanisms, some are built for different scales, etcetera. From these GNNs, today we will be looking at GraphSage by <a href="https://arxiv.org/pdf/1706.02216">Hamilton et al.</a>.</p>
+<h2 id="inductive-vs-transductive-methods">Inductive vs Transductive Methods</h2>
+<p>From the GNN node embeddings methods, they can often be split into 2 categories: transductive and inductive methods. Transductive methods create embeddings from the nodes it has seen during training but they are unable to generalise to nodes they have not seen. To create embeddings for new nodes, the GNN would have to be retrained on these new nodes. On the other hand, the inductive methods can generalise to nodes they have never encountered before. As a result the inductive methods are computationally efficient compared to transductive methods and perform better with dynamic graphs.</p>
+<p>GraphSage (SAmple and aggreGatE) was one of the first successful inductive node embedding algorithms. It was inspired by a variant of the Graph Convolution Network (GCN), another inductive GNN method.</p>
+<p>Rather than training a distinct embedding vector for each node, a set of aggregate functions are trained to incorporate the structural and node features.</p>
+<p>GraphSage introduced 2 methods: the embedding generation method (called the forward propagation algorithm) and model parameter training method.</p>
+<h2 id="forward-propagation-algorithm">Forward Propagation Algorithm</h2>
+<p>Given a Graph $\mathcal{G}(V, \mathcal{E})$ where $V$ corresponds to the domain of nodes and $\mathcal{E}$ corresponds to the domain of edges. The embedding generation method follows:</p>
+<p><img src="https://mathstoml.ghost.io/content/images/2024/09/image-5.png" alt=""></p>
+<p>Figure 1. The forward propagation algorithm. Source: <a href="https://arxiv.org/pdf/1706.02216">https://arxiv.org/pdf/1706.02216</a></p>
+<p>The intuition behind this approach is as each iteration continues, the nodes continue to aggregate information from their local neighbours and stores the information for node $v$ in layer $k$ of the algorithm in an embedding vector $h_{v}^{k}$. As this process continues, more information about the whole graph is aggregated.</p>
+<h2 id="model-parameter-training">Model Parameter Training</h2>
+<p>To allow this method to work in the mini batch setting, given a mini batch of size $m$ and it&rsquo;s batch of nodes $\{ v_{1}, ..., v_{m} \}$, rather than iterating over all nodes in the graph, only the nodes needed up to a depth K are used.</p>
+<p>To train the parameters of the model, <a href="https://arxiv.org/pdf/1706.02216">Hamilton et al.</a> used a loss function inspired by vector calculus. Given a node $u$ and it&rsquo;s final node embedding of $z_{u}$, the loss function can be defined as:</p>
+$$J_{\mathcal{G}}(z_{u}) = -\log(\sigma(z_{u}^{T} z_{v})) - Q\cdot \mathbb{E}_{v _{n} \sim P_{n}(v)} \log (\sigma(-z_{u}^{T} z_{v_{n}})).$$<p>where $v$ is a node that co-occurs near $u$ on a fixed-length random walk, $\sigma$ is the sigmoid activation function, $P_{n}$ is the negative sampling distribution, and $Q$ defines the number of negative samples. This form of loss encourages nodes which close to $u$ to have similar embeddings, while nodes far away to be distinguishable. To see this, we&rsquo;ll write the loss function using the sigmoid activation function.</p>
+$$J_{\mathcal{G}}(z_{u}) = \log(1 + e^{-z_{u}^{T} z_{v}})) + Q\cdot \mathbb{E}_{v _{n} \sim P_{n}(v)} \log (1 + e^{z_{u}^{T} z_{v_{n}}})).$$<p>The term on the left: $1 + e^{-z_{u}^{T} z_{v}}$ achieves a maximum of 2 when the vectors are orthogonal and when the vector embeddings are parallel, the minimum of $1 + e^{-1}$ is achieved.</p>
+<p>Similarly, the term $1 + e^{z_{u}^{T} z_{v_{n}}}$ is minimised with the value of 1 when the vectors are orthogonal and maximised when the vectors are parallel.</p>
+<p>The key difference to previous method which have implemented this form of loss is that here, we restrict the embeddings $z_{u}$ to be the embeddings generated from the features contained within a node&rsquo;s local neighbourhood, unlike generating a unique embedding for each node.</p>
+<h3 id="graphsage-aggregation-functions">GraphSage Aggregation Functions</h3>
+<p>Similar to other GNN algorithms, GraphSage&rsquo;s aggregator function had to be symmetric, trainable, and have the ability to provide a rich representational capacity. So GraphSage experimented with 3 different aggregator functions: the mean aggregator, LSTM aggregator, and the pooling aggregator.</p>
+<p><strong><strong>Mean Aggregator</strong></strong></p>
+<p>Given embedding vectors$\{ h_{u}^{k-1}, \forall u \in \mathcal{N}(v) \}$, the mean aggregator for the embedding for node v and layer k is written as:</p>
+$$ h_{v}^{k} \leftarrow \sigma (W \cdot \text{MEAN}( \{h_{v}^{k-1}\} \cup \{ \{h_{u}^{k-1}, \forall u \in \mathcal{N}(v) \})).$$<p>This method is often referenced as the mean based aggregator convolutional since it is rough linear approximation of the local spectral convolution (see the appendix).</p>
+<p><strong><strong>LSTM Aggregator</strong></strong></p>
+<p>Another experimented aggregator function was the LSTM (see the appendix) aggregator. Here LSTMs have the advantage of having more expressive capabilities but suffers from its main limitation of being inherently non-symmetric due to their sequential processing. To help the LSTM overcome this limitation, a random permutation of the node&rsquo;s neighbours are inputted to LSTM.</p>
+<p><strong><strong>Pooling Aggregator</strong></strong></p>
+<p>The final of the 3 approaches is the pooling approach where a neighbouring embeddings are fed independently through a neural network:</p>
+$$\text{AGGREGATE}_{k}^{\text{pool}} = \max(\{ \sigma(W _{\text{pool}} h_{u_{i}}^{k} + b), \forall u_{i} \in \mathcal{N}(v) \}),$$<p>where the max is the element-wise max operator and sigma is a non-linear activation function.</p>
+<h2 id="results">Results</h2>
+<p>The authors <a href="https://arxiv.org/pdf/1706.02216">Hamilton et al.</a> tested the performance on 3 benchmark datasets, classification of academic papers, classifying Reddit posts, and classifying protein functions. For each dataset, the 3 variants of GraphSage were trained along with using a variant inspired by the GCN. Each of these methods were compared to DeepWalk by <a href="https://arxiv.org/pdf/1403.6652">Perozzi et al.</a> (see the appendix).</p>
+<p>Two further variants of the GraphSage model were tested: the unsupervised model which was trained on the loss function defined above and the supervised model which was trained on the cross-entropy loss function. For further insights into the experimental details, visit <a href="https://arxiv.org/pdf/1706.02216">Hamilton et al.</a>&rsquo;s paper.</p>
+<p><img src="https://mathstoml.ghost.io/content/images/2024/09/image-6.png" alt=""></p>
+<p>From the results, each of the tested aggregators exceeded the performance of the previous state of the art methods with the GraphSage-LSTM and GraphSage-pool achieving the highest results.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This article delved into GraphSage, an inductive node embedding method with applications in large scale graph.</p>
+<h2 id="appendix">Appendix</h2>
+<p><strong><strong>Spectral Convolution:</strong></strong> In spectral graph convolution, an eigen decomposition of the Laplacian matrix is performed, which gives us the information related to the underlying structure of the graph. This operation is performed on the Fourier space and finds the smallest eigenvalues as these explain the graph structure better in Spectral Convolution. ChebNet is an example of a method which has applied the idea spectral convolutions with a focus on local spectral convolutions.</p>
+<p><strong><strong>Local Spectral Convolution:</strong></strong> The difference between spectral convolutions and local spectral convolutions is that the local methods focus more on the informations from a node&rsquo;s immediate neighbourhood rather than the entire graph. As a result these methods are more computationally efficient and often provide more practical relevance. The Graph Convolution Network (GCN) used a first-order approximation of the spectral convolution which lead to localised operations. Here the full-spectral convolution can be written as:</p>
+$$h_{v} = \sum_{u\in \mathcal{N}(i)} \frac{1}{\sqrt{d_{u}d_{v}}} h_{j},$$<p>where $d_{v}$ and $d_{u}$ correspond to the degrees of nodes v and u.</p>
+<p><strong><strong>Spatial Convolution:</strong></strong> These methods work on local neighbourhoods of nodes to understand their properties based on the k neighbours. Unlike spatial convolutions, these methods are much simpler to implement. GraphSage is an example of Spatial Convolution.</p>
+<p><strong><strong>Negative Sampling:</strong></strong> Negative sampling is a technique in machine learning which is designed to enhance the efficiency of the models by selecting a small subset of negative samples from a pool of negative samples. This form of loss function is defined the maximise the similarity between the positive pairs and minimise the similarity between the negative pairs. As a result, this form of model should be able to distinguish between positive and negative samples, in our case, between nodes close and far apart.</p>
+<p><strong><strong>DeepWalk:</strong></strong> DeepWalk is a shallow node embeddings method which uses a random walk to capture the nodes structure. These random walks sequences are then applied to the Skip-Gram model to predict nearby nodes. Using the Skip-Gram model, dense vector embeddings for the nodes are generated where nodes that co-occur have a similar embedding.</p>
+<p><strong><strong>LSTM:</strong></strong> An LSTM is a type of recurrent neural network (RNN) that is designed to better capture and retain information while avoiding the vanishing gradient problem. There LSTM is composed of 3 gates, the forget gate, input gate, and output gate, with each gate controlling the amount of information to be stored or forgotten during each step.</p>
+<h3 id="references">References</h3>
+<p>Hamilton, W., Ying, R. and Leskovec, J. (n.d.). <strong>Inductive Representation Learning on Large Graphs</strong>. [online] Available at: <a href="https://arxiv.org/pdf/1706.02216">https://arxiv.org/pdf/1706.02216</a> [Accessed 11 Sep. 2024].</p>
+<p>Perozzi, B., Al-Rfou, R. and Skiena, S. (n.d.). DeepWalk: Online Learning of Social Representations. [online] doi:https://doi.org/10.1145/2623330.</p>
+<p>Hochreiter, S. and Schmidhuber, J. (1997). Long Short-Term Memory. <strong>Neural Computation</strong>, 9(8), pp.1735–1780. doi:https://doi.org/10.1162/neco.1997.9.8.1735.</p>
+<p>in (2019). <strong>What is the difference between graph convolution in the spatial vs spectral domain?</strong> [online] Artificial Intelligence Stack Exchange. Available at: <a href="https://ai.stackexchange.com/questions/14003/what-is-the-difference-between-graph-convolution-in-the-spatial-vs-spectral-doma">https://ai.stackexchange.com/questions/14003/what-is-the-difference-between-graph-convolution-in-the-spatial-vs-spectral-doma</a> [Accessed 11 Sep. 2024].</p>
+<p>‌</p>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

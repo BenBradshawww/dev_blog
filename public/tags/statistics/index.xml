@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on My New Hugo Site</title>
+    <link>https://example.org/tags/statistics/</link>
+    <description>Recent content in Statistics on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a Time Series &amp; How can we Model it?</title>
+      <link>https://example.org/posts/what-is-a-time-series--how-can-we-model-it/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/what-is-a-time-series--how-can-we-model-it/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;What is a Time Series &amp;amp; How can we Model it?&amp;rsquo;&#xA;date = 2024-10-05&#xA;categories = [&amp;ldquo;Time Series&amp;rdquo;]&#xA;tags = [&amp;ldquo;Statistics&amp;rdquo;, &amp;ldquo;Time Series&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Time Series&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;What is a Time Series &amp;amp; How can we Model it?&amp;rsquo;&#xA;date = 2024-10-05&#xA;categories = [&amp;ldquo;Time Series&amp;rdquo;]&#xA;tags = [&amp;ldquo;Statistics&amp;rdquo;, &amp;ldquo;Time Series&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Time Series&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kullback-Leibler Divergence</title>
+      <link>https://example.org/posts/kullback-leibler-divergence/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/kullback-leibler-divergence/</guid>
+      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Kullback-Leibler Divergence&amp;rsquo;&#xA;date = 2024-09-10&#xA;categories = [&amp;ldquo;Statistics&amp;rdquo;]&#xA;tags = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Statistics&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Kullback-Leibler Divergence&amp;rdquo;, &amp;ldquo;KL Divergence&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Kullback-Leibler Divergence&amp;rsquo;&#xA;date = 2024-09-10&#xA;categories = [&amp;ldquo;Statistics&amp;rdquo;]&#xA;tags = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Statistics&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Kullback-Leibler Divergence&amp;rdquo;, &amp;ldquo;KL Divergence&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>Gambler&#39;s Ruin for a Symmetric Random Walk</h1>
+    <p class="details">Jan 20, 2025 · 4 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/algorithms">Algorithms</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++</p>
+<p>+++
+title = &ldquo;Gambler&rsquo;s Ruin for a Symmetric Random Walk&rdquo;
+date = 2025-01-20
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Probability&rdquo;, &ldquo;Random Walk&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Symmetry&rdquo;, &ldquo;Random Walk&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &ldquo;Gambler&rsquo;s Ruin for a Symmetric Random Walk&rdquo;
+date = 2025-01-20
+categories = [&ldquo;Algorithms&rdquo;]
+tags = [&ldquo;Probability&rdquo;, &ldquo;Random Walk&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Symmetry&rdquo;, &ldquo;Random Walk&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++</p>
+<p><img src="/images/jakob-owens-EroR0Ah9hqI-unsplash.jpg" alt="Image by Jacob Owens: https://unsplash.com/@jakobowens1"></p>
+<p>A gambler starts with i dollars and bets $1 on a fair coin toss, winning $1 on heads and losing $1 on tails. The game stops when the gambler reaches 0 or N dollars.</p>
+<p>• Derive the probability $p_i$ that the gambler reaches N dollars (i.e. “wins”) before going broke.</p>
+<p>We&rsquo;ll cover 3 ways to approach this questions.</p>
+<h2 id="solution-1">Solution 1</h2>
+<p>Let $p_i$ denote the probability of reaching N dollars given he currently has i dollars.</p>
+<p>Using the law of total probability [1], we can write:</p>
+$$p_i = \frac{1}{2} p_{i+1} + \frac{1}{2}p_{i-1}.$$<p>
+Similarly,</p>
+$$p_{i-1} = \frac{1}{2} p_{i} + \frac{1}{2}p_{i-2}.$$<p>We also have the boundary conditions where $p_0 = 0$ and $p_{20} = 1$.</p>
+<p>Using these two boundary conditions and the formula above. We may iteratively create a formula for $p_i$ from $p_{i-1}$ and a formula for $p_i$ from $p_{i+1}$.</p>
+$$\begin{aligned}p_1 &= \frac{1}{2} p_0 + \frac{1}{2} p_2 =  \frac{1}{2} p_2 \\ p_2 &= \frac{1}{2} p_1 + \frac{1}{2} p_3 =  \frac{1}{2} (\frac{1}{2} p_2)  + \frac{1}{2} p_3 = \frac{2}{3} p_3 \\ p_3 &= \frac{1}{2} p_2 + \frac{1}{2} p_4 =  \frac{1}{2} (\frac{2}{3} p_3)  + \frac{1}{2} p_4 = \frac{3}{4} p_4 \\ &\vdots  \end{aligned}$$<p>Similarly,</p>
+$$\begin{aligned}p_{19} &= \frac{1}{2} p_{18} + \frac{1}{2} p_{20} +  =  \frac{1}{2} + \frac{1}{2} p_{18} \\ p_{18} &= \frac{1}{2} p_{17} + \frac{1}{2} p_{19} =  \frac{1}{2} p_{17}  + \frac{1}{2}(\frac{1}{2} +\frac{1}{2} p_{18}) = \frac{1}{3}  + \frac{2}{3}p_{17} \\ p_{17} &= \frac{1}{2} p_{16} + \frac{1}{2} p_{18} =  \frac{1}{2}p_{16}  + \frac{1}{2} (\frac{1}{3}  + \frac{2}{3}p_{17}) = \frac{1}{4} +  \frac{3}{4} p_{16} \\ &\vdots  \end{aligned}$$<p>By observing the pattern from the two iterations above, we can use substitute these formula into:</p>
+$$p_{10} = \frac{1}{2} p_{9} + \frac{1}{2} p_{11} = \frac{1}{2} (\frac{9}{10}p_{10}) + \frac{1}{2}(\frac{1}{10} +  \frac{9}{10} p_{10}) = \frac{1}{2}$$<p>Consequently, the probability of reaching 20 dollars before going broke is $\frac{1}{2}$.</p>
+<h2 id="solution-2">Solution 2</h2>
+<p>This solution is similar to the method above, but without the use of iteration. Starting from:</p>
+$$p_i = \frac{1}{2} p_{i+1} + \frac{1}{2}p_{i-1}.$$<p>We can rearrange this formula to get:</p>
+$$p_{i+1} - p_i = p_i - p_{i-1}.$$<p>This tells us that the difference between successive values of $p_i$ is the same at every step. Specifically, the step size does not depend on i. This is the defining property of a linear function. As a result, we know the general formula for this equation takes the form of:</p>
+$$p_i = Ai+B.$$<p>To determine the constants, we solve the formula at the boundary conditions.</p>
+<p>At $i=0, p_0 = 0$.</p>
+$$0 = p_0 = A .0 + B \Rightarrow B = 0.$$<p>And at $i=20, p_{20} = 1$.</p>
+$$1 = p_0 = A .20 \Rightarrow A = \frac{1}{20}. $$<p>At $i=10$:</p>
+$$p_{10} = \frac{1}{20} 10 = \frac{1}{2}.$$<h2 id="solution-3">Solution 3</h2>
+<p>The final solution uses Martingale Theory. Let $X_i$ be the random variable denoting the amount of wealth at time $i$.</p>
+<p>Our goal is to use the Doob&rsquo;s Optional Stopping Theorem.</p>
+<p><strong><strong>Theorem (Doob&rsquo;s Optional-Stopping Theorem).</strong></strong> a) Let $T$ be a stopping time and let $X$ be a supermatingale. Then $X_T$ is integrable and</p>
+$$\mathbb{E}[X_T] \leq \mathbb{E}[X_0]$$<p>in each of these 3 situations:</p>
+<ol>
+<li>$T$ is bounded. (for some $N \in \mathcal{N}, T(w) \leq N, \forall w$),</li>
+<li>$X$ is bounded (for some $K \in \mathbb{R}^{+}, |X_n(w)| \leq K \text{ for every } n \text{ and every } w$),</li>
+<li>$\mathbb{E}[T] < \infty$ and for some $K \in \mathbb{R}^{+}, |X_n(w) - X_{n-1}(w)| \leq K, \forall (n,w)$.</li>
+</ol>
+$$\mathbb{E}[X_T] = \mathbb{E}[X_0].$$<p>
+As a result, to use Doob&rsquo;s Optional Stopping theorem we need to show that $X$ is a random variable. A process $X$ is a martingale if:</p>
+<ol>
+<li>$X$ is adapted,</li>
+<li>$\mathbb{E}[|X_{n}|] < \infty, \forall n,$</li>
+<li>$\mathbb{E}[X_{n} | \mathcal{F}_{n-1}] = X _{n-1}, \text{ almost surely } (n \geq 1).$</li>
+</ol>
+<p>We&rsquo;ll show how $X$ satisfies each of these conditions below:</p>
+<ol>
+<li>The random variable $X_i$ is a function of random Bernoulli variables up to time $i$. So it must be adapted.</li>
+<li>The process is bounded below by 0 and above by 20 such that $\mathbb{E}[|X_i|] \leq 20 < \infty$.</li>
+<li>Finally, let $B_i$ denote a Bernoulli Random variable for the toss as time $i$.</li>
+</ol>
+$$\begin{aligned} \mathbb{E}[X_i | \mathcal{F}_{n-1}] &= \mathbb{E}[X_{i-1} + B_{i}| \mathcal{F}_{n-1}] \\ &= \mathbb{E}[X_{i-1} ] + \mathbb{E}[ B_{i}| \mathcal{F}_{n-1}] \\ &= \mathbb{E}[X_{i-1} ]+ \mathbb{E}[ B_{i}] \\ &= \mathbb{E}[X_{i-1} ] + \frac{1}{2}. -1 + \frac{1}{2}.1 \\ &= \mathbb{E}[X_{i-1} ].\end{aligned}$$<p>To use Doob&rsquo;s Optional Stopping Theorem, we must satisfy 1 of the 3 conditions. We&rsquo;ll choose to show $X$ is bounded. Since the game stops, when $X$ is 20 or 0. The condition must be bounded by 20. As a result, we can say that $\mathbb{E}[X_T] = \mathbb{E}[X_0]$.</p>
+$$10 = \mathbb{E}[X_0] = \mathbb{E}[X_T] = 20p + 0.(1-p) = 20p \Rightarrow p = \frac{1}{2}.$$
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

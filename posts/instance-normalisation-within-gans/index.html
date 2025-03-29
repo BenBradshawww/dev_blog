@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>Instance Normalisation within GANs</h1>
+    <p class="details">Jul 13, 2024 · 5 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/graphs">Graphs</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Instance Normalisation within GANs&rsquo;
+date = 2024-07-13
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GANs&rdquo;]
+keywords = [&ldquo;GANs&rdquo;, &ldquo;Instance Normalisation&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Instance Normalisation within GANs&rsquo;
+date = 2024-07-13
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GANs&rdquo;]
+keywords = [&ldquo;GANs&rdquo;, &ldquo;Instance Normalisation&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Instance Normalisation within GANs&rsquo;
+date = 2024-07-13
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GANs&rdquo;]
+keywords = [&ldquo;GANs&rdquo;, &ldquo;Instance Normalisation&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>title = &lsquo;Instance Normalisation within GANs&rsquo;
+date = 2024-07-13
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GANs&rdquo;]
+keywords = [&ldquo;GANs&rdquo;, &ldquo;Instance Normalisation&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Instance Normalisation within GANs&rsquo;
+date = 2024-07-13
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GANs&rdquo;]
+keywords = [&ldquo;GANs&rdquo;, &ldquo;Instance Normalisation&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Instance Normalisation within GANs&rsquo;
+date = 2024-07-13
+categories = [&ldquo;Graphs&rdquo;]
+tags = [&ldquo;GANs&rdquo;]
+keywords = [&ldquo;GANs&rdquo;, &ldquo;Instance Normalisation&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p><img src="/images/justin-simmonds-oGKncrpXn70-unsplash.jpg" alt="Image">
+<a href="https://unsplash.com/@justsimms?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Image by Justin Simmonds</a></p>
+<p>Generative Adversarial Networks (GANs) were first introduced in 2014 by Ian Goodfellow in his paper “Generative Adversarial Nets.” This paper presented the GAN framework, which consists of two neural networks called the generator and the discriminator. The generator takes random noise as input and outputs a generated image. The discriminator takes both a generated image and a real image as inputs and tries to determine which is real and which is generated. Their training process can be likened to a ping-pong game, with the generator trying to produce images that fool the discriminator, and the discriminator is trying to identify which images are generated.</p>
+<p>Prior to 2017, normalisation methods within GANs still used Batch Normalisation. This normalisation scheme was initially introduced to help train Convolutional Neural Networks (CNNs) by normalising each of the channels in each batch. In batch normalisation, channel-wise normalisation is performed using the formulas below. This works well in CNNs by ensuring a consistent channel mean and variance, resulting in a more stable training process and improved gradient flow.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*f1CFQ-9T318wsmkrgUaApg.png" alt=""></p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*q_80D4RkXdShyrbt4-Ly6A.png" alt=""></p>
+<p>Here, c denotes the channel (also known as the feature map), m is the batch size, and H and W represent the height and width of the image.</p>
+<p>Batch Normalisation in CNNs has been proven to be effective but in GANs it has introduced limitations. An ideal GAN should produce a wide range of outputs. However, when Batch Normalisation is applied, it often results in samples with a similar distribution across the batch, reducing the uniqueness of each sample. This phenomenon is known as mode collapse.</p>
+<p>Mode collapse occurs when the generator struggles to produce a diverse range of images. Consequently, the generator learns to produce a limited set of images that can fool the discriminator, rather than focusing on generating a diverse array of images.</p>
+<p>Another issue with Batch Normalisation is that it creates small dependencies between the sample channels, as each sample impacts the scaling applied to the channel. This results in inconsistent normalisation, which is not optimal for any individual image in the batch.</p>
+<p>To address these issues, a new type of normalisation is needed. This new normalisation is called Instance Normalisation (also known as Contrast Normalisation). Instance Normalisation was introduced by Dmitry Ulyanov in his paper “Instance Normalization: The Missing Ingredient for Fast Stylization” as a way to improve the performance of artistic style transfer.</p>
+<p>The goal in artistic style transfer is to recreate the style of one image within the context of another. For example, the generator would take the art style from a painting and apply it to a portrait. This produces a portrait with the given art style. The networks that solve these problems are called Style Transfer Networks. In these networks, the painting is referred to as the style image, and the portrait is the content image.</p>
+<p>To avoid the effect of samples impacting each other’s output images, Instance Normalisation normalises each channel individually using the following formula:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/1*JOxF7XuPaTUTUmF-C0AXQw.png" alt=""></p>
+<p>Here i denotes the ith channel, and H and W denote the image height and width, respectively.</p>
+<p>This normalisation is crucial in Style Transfer Networks which feed both the content image and style image into the same network. Without Instance Normalisation the normalisation would be inconsistent as the content image would impact the normalisation of the style images and vice-versa. Dmitry mentioned this in his paper as he found that the larger the batch size was used, there would be a larger drop in performance of the network with Batch Normalisation.</p>
+<p>The image below should help understand the difference between the normalisation schemes.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1600/0*hl0nFNpdgxMeaKJ3.png" alt=""></p>
+<p>SyncedReview (2018) <strong>Facebook Ai proposes group normalization alternative to batch normalization</strong>, <strong>Medium</strong>. Available at: <a href="https://medium.com/syncedreview/facebook-ai-proposes-group-normalization-alternative-to-batch-normalization-fb0699bffae7">https://medium.com/syncedreview/facebook-ai-proposes-group-normalization-alternative-to-batch-normalization-fb0699bffae7</a> (Accessed: 22 June 2024).</p>
+<p>This article covered the introduction of Instance Normalisation in Neural Networks and its preference over batch normalisation in the domain of GANs.</p>
+<p><strong><strong>References</strong></strong></p>
+<p>Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., &amp; Bengio, Y. (2014). <strong>Generative Adversarial Nets</strong>. <a href="https://arxiv.org/pdf/1406.2661">https://arxiv.org/pdf/1406.2661</a></p>
+<p>Ulyanov, D., Vedaldi, A., &amp; Lempitsky, V. (n.d.). <strong>Instance Normalization: The Missing Ingredient for Fast Stylization</strong>. <a href="https://arxiv.org/pdf/1607.08022">https://arxiv.org/pdf/1607.08022</a></p>
+<p>‌</p>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

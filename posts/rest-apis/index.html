@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>Rest APIs</h1>
+    <p class="details">Oct 30, 2024 · 8 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/programming-tools">Programming Tools</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Rest APIs&rsquo;
+date = 2024-10-30
+categories = [&ldquo;Programming Tools&rdquo;]
+tags = [&ldquo;REST APIs&rdquo;]
+keywords = [&ldquo;Rest&rdquo;, &ldquo;REST APIs&rdquo;, &ldquo;APIs&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Rest APIs&rsquo;
+date = 2024-10-30
+categories = [&ldquo;Programming Tools&rdquo;]
+tags = [&ldquo;REST APIs&rdquo;]
+keywords = [&ldquo;Rest&rdquo;, &ldquo;REST APIs&rdquo;, &ldquo;APIs&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Rest APIs&rsquo;
+date = 2024-10-30
+categories = [&ldquo;Programming Tools&rdquo;]
+tags = [&ldquo;REST APIs&rdquo;]
+keywords = [&ldquo;Rest&rdquo;, &ldquo;REST APIs&rdquo;, &ldquo;APIs&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>title = &lsquo;Rest APIs&rsquo;
+date = 2024-10-30
+categories = [&ldquo;Programming Tools&rdquo;]
+tags = [&ldquo;REST APIs&rdquo;]
+keywords = [&ldquo;Rest&rdquo;, &ldquo;REST APIs&rdquo;, &ldquo;APIs&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Rest APIs&rsquo;
+date = 2024-10-30
+categories = [&ldquo;Programming Tools&rdquo;]
+tags = [&ldquo;REST APIs&rdquo;]
+keywords = [&ldquo;Rest&rdquo;, &ldquo;REST APIs&rdquo;, &ldquo;APIs&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p>title = &lsquo;Rest APIs&rsquo;
+date = 2024-10-30
+categories = [&ldquo;Programming Tools&rdquo;]
+tags = [&ldquo;REST APIs&rdquo;]
+keywords = [&ldquo;Rest&rdquo;, &ldquo;REST APIs&rdquo;, &ldquo;APIs&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+[params.math]
+math = true</p>
+<p><img src="/images/ante-hamersmit-DSUjNkiRFg0-unsplash.jpg" alt="Image">
+<a href="https://unsplash.com/@ante_kante?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Image by Ante Hamersmit</a></p>
+<h2 id="what-are-apis">What are APIs</h2>
+<p>Before we just into the class of Rest APIs it is best to understand what is an API. An API is simply an acronym for application programming interface, a software intermediary that allows two applications to talk to each other.</p>
+<p>They are usually explained in terms of a client and a server. The application that sends a request is called the client and the application that sends the response is called the server.</p>
+<p>In general when we refer to an API, we often are referring to <a href="https://stoplight.io/api-types">web APIs</a>. These APIs are accessed via a HTTP protocol (see the appendix).</p>
+<p>APIs fall into 4 different categories [1]:</p>
+<ul>
+<li>Public APIs: These APIs are available to anyone to use with little to no restriction through registration and authentication. These includes services such as the Spotify API, OpenWather API, and Google Maps API.</li>
+<li>Internal (Private) APIs: These APIs are designed for use by a closed group of API consumers. These often have much greater security than public APIs.</li>
+<li>Partner APIs: These sit between private and public APIs. These often share data between two companies.</li>
+<li>Open APIs: Most Public APIs follow the OpenAI standard which provides guidelines on endpoint naming, data formats, and error messaging.</li>
+</ul>
+<h2 id="api-protocals">API Protocals</h2>
+<p>Every API has a protocol. This defines how your API will connect to internet and how it will communicate information. There are many different type each with their own set of advantages and drawbacks.</p>
+<ul>
+<li>SOAP APIs: Simple Object Access Protocol (SOAP) is another API protocol which can connect over TCP and SMTP alongside HTTP. As a result, it is more flexible than REST, however it is also more restrictive because it only works with XML data and has more rigid requirements for requests. One advantage of SOAP is its requirement for metadata about the files in the request which results in a standardised protocol able to communicate complex data easily. Consequently, SOAP tends to be a good fit for large and sophisticated applications where reliability takes priority.</li>
+<li>RPC APIs: Remote Procedure Call (RPC) protocols return either XML or JSON responses. RPC calls a method rather than a data source and RPC returns confirmation on whether the function was triggered. RPC API can be thought of as a method to create actions.</li>
+<li>GraphQL APIs: This one isn&rsquo;t really a specific protocol, however, it has a distinct query language. In essence, GraphQL APIs provide clients with higher amounts of flexibility with each query but to achieve this higher flexibility, extensive documentation is needed.</li>
+<li>REST APIs: We&rsquo;ll cover these below.</li>
+</ul>
+<h2 id="rest-apis">REST APIs</h2>
+<p>The Representational State Transfer (REST) protocol [3] is the most well known protocol. REST simply defines routes with a URL rather than typically having to wrap routes with XML (see the appendix).</p>
+<p>APIs that follow the REST architecture style are called REST APIs and the web services that implement REST architectures are called RESTful web services.</p>
+<h2 id="what-are-the-key-features-of-the-rest-architecture">What are the key features of the REST architecture?</h2>
+<ul>
+<li>Uniform Interface. Any RESTful web-service must transfer information in a standard format. There are 4 structural constraints on the request. The request must identify resources. Clients should have enough information in the resuource representation to modify or delete the resource if need be. Meta data must be attached to the received information to help the client process the information. The client must also receive information about all other related resources to finish their task.</li>
+<li>Statelessness. Every request is completed independently of all previous request.</li>
+<li>Layered System. The client can connect to intermediaries between the client and server and still be able to receive responses from the server.</li>
+<li>Cacheability. The RESTful web services must support caching where some responses are stored on the clients or intermediary to improve server response time.</li>
+<li>Code on demand. In the REST architecture, servers can transfer software programming code to the client.</li>
+</ul>
+<h2 id="what-are-the-benefits">What are the benefits?</h2>
+<p>There are 3 main benefits of REST APIs.</p>
+<ol>
+<li>Scalability. RESTful APIs scale efficiently because REST optimises client-server interactions. The REST APIs stateless and well managed caching can reduce load on the server.</li>
+<li>Flexibility. RESTful web services support client-server separation. Consequently, server and client changes will not require changes to the API.</li>
+<li>Independence. REST APIs are independent of the technologies they use. Both the client and server application can change without affecting the API design.</li>
+</ol>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>In general, a rest API follows 4 steps.</p>
+<ol>
+<li>The client sends a request to the server.</li>
+<li>The server authenticates the request.</li>
+<li>The server receives and processes the request.</li>
+<li>The server returns the response to the client.</li>
+</ol>
+<h2 id="what-consists-of-a-restful-api-client-request">What consists of a Restful API Client Request?</h2>
+<p>Each client request consists of a Uniform Resource Loader (URL) which specifies the path to the resource. This is similar to the website address to enter any browser to visit any webpage and the Restful URL is referred to as the request endpoint.</p>
+<p>Since the Restful APIs are implemented with HTTP, the HTTP method will tell the server what to do with the online resource. There are 4 different methods which can be used:</p>
+<ul>
+<li>GET: Clients use GET to access resources at the URL.</li>
+<li>POST: Clients use POST to send data to the server.</li>
+<li>PUT: Clients use PUT to update resources on a server.</li>
+<li>DELETE: Clients use DELETE to delete resources from the server.</li>
+</ul>
+<p>Finally, the client request also consists of HTTP headers which consists of the metadata exchanged between the client and server. This can include information about the format of the request and response, information about the request status, and more. Some HTTP headers include data for the POST and PUT HTTP methods. While other headers consist of a list of parameters for what the server needs to do.</p>
+<h2 id="how-are-restful-apis-verified">How are Restful APIs verified?</h2>
+<p>Any web service which uses Restful APIs need to authenticate the requests to verify the identity of the individual who has sent the request. Typically, there are 4 ways to do this.</p>
+<ol>
+<li>Basic authentication: Here the client sends a username and password in the request header. These details are encoded with base64 for a safe transmission.</li>
+<li>Bearer authentication: Bearer authentication refers to process of giving access to the token bearer. The token bearers token is usually a string of characters.</li>
+<li>API keys: Here the server assigns a unique generate value for a first-time client which is used to verification. API keys are less secure because the client has to transmit the key which leaves them vulnerable to network theft.</li>
+<li>OAuth: OAuth combines passwords and tokens for a highly secure login. The server will identify the first request from the passwords and then will ask for additional tokens for authorisation.</li>
+</ol>
+<h2 id="what-does-the-restful-request-contain">What does the RESTful request contain?</h2>
+<p>REST responses consists of:</p>
+<ul>
+<li>A status line to communicate whether the communication was a success or failure. Some common status codes include 200 (generic success response), 201 (POST method success response), 400 (incorrect request the server cannot process), 404 (resource not found).</li>
+<li>A message body which contains the resource. Clients can request information in an XML or JSON format.</li>
+<li>Headers or metadata which provides additional information about the response.</li>
+</ul>
+<h2 id="appendix">Appendix</h2>
+<p><strong><strong>HTTP:</strong></strong> A Hypertext Transfer Protocol (HTTP) is used to load webpages using hyperlinks. It is designed to transfer information between network devices.</p>
+<p>Internet browsers use HTTP requests as communications platforms to ask for the information needed to load a website. Each HTTP request carries encoded data that carries different types of information, typically this includes</p>
+<ul>
+<li>An HTTP version type.</li>
+<li>A URL.</li>
+<li>An HTTP method.</li>
+<li>An HTTP request header.</li>
+<li>An optional HTTP body.</li>
+</ul>
+<p><strong><strong>XML:</strong></strong> XML is a software and hardware independent tool for storing or transferring data [2]. In essence, XML is data wrapped around tags.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;events&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;event&gt;</span>sale<span style="color:#f92672">&lt;/event&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;user&gt;</span>Jani<span style="color:#f92672">&lt;/user&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;item&gt;</span>123456789<span style="color:#f92672">&lt;/item&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;time&gt;</span>11:59:03<span style="color:#f92672">&lt;/time&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/events&gt;</span>
+</span></span></code></pre></div><p>XML looks similar to HTML, however they were designed with different goals. HTML is designed to display data, focusing on how the data looks while XML is designed to carry data.</p>
+<p>The key difference between the two is that HTML has predefined tags while XML does not.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This article introduces the idea of web APIs and briefly covered many of their variants before focussing on the REST API.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>Stoplight. (n.d.). <strong>Types of APIs | Types Of API Calls &amp; REST API Protocol</strong>. [online] Available at: <a href="https://stoplight.io/api-types">https://stoplight.io/api-types</a>.</li>
+<li>w3schools (2015). <strong>XML Introduction</strong>. [online] W3schools.com. Available at: <a href="https://www.w3schools.com/xml/xml_whatis.asp">https://www.w3schools.com/xml/xml_whatis.asp</a>.</li>
+<li>Amazon Web Services (2024). <strong>What is RESTful API? - RESTful API Beginner’s Guide - AWS</strong>. [online] Amazon Web Services, Inc. Available at: <a href="https://aws.amazon.com/what-is/restful-api/">https://aws.amazon.com/what-is/restful-api/</a>.</li>
+</ol>
+<p>‌</p>
+<p>‌</p>
+<p>‌</p>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1>Perpetual Children</h1>
+    <p class="details">Dec 22, 2024 · 6 min read</p>
+
+    
+    <p class="categories">Categories: 
+        
+            
+            <a href="/categories/probability">Probability</a>
+        
+    </p>
+    
+
+    <div class="content">
+        <p>+++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Perpetual Children&rsquo;
+date = 2024-12-22
+categories = [&ldquo;Probability&rdquo;]
+tags = [&ldquo;Probability&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Random Walks&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+featuredImage = &ldquo;/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&rdquo;
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Perpetual Children&rsquo;
+date = 2024-12-22
+categories = [&ldquo;Probability&rdquo;]
+tags = [&ldquo;Probability&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Random Walks&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+featuredImage = &ldquo;/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&rdquo;
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>+++
+title = &lsquo;Perpetual Children&rsquo;
+date = 2024-12-22
+categories = [&ldquo;Probability&rdquo;]
+tags = [&ldquo;Probability&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Random Walks&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+featuredImage = &ldquo;/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&rdquo;
+[params.math]
+math = true
++++
++++
++++
++++
++++
++++
++++</p>
+<p>title = &lsquo;Perpetual Children&rsquo;
+date = 2024-12-22
+categories = [&ldquo;Probability&rdquo;]
+tags = [&ldquo;Probability&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Random Walks&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+featuredImage = &ldquo;/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&rdquo;
+[params.math]
+math = true</p>
+<p>title = &lsquo;Perpetual Children&rsquo;
+date = 2024-12-22
+categories = [&ldquo;Probability&rdquo;]
+tags = [&ldquo;Probability&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Random Walks&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+featuredImage = &ldquo;/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&rdquo;
+[params.math]
+math = true</p>
+<p>title = &lsquo;Perpetual Children&rsquo;
+date = 2024-12-22
+categories = [&ldquo;Probability&rdquo;]
+tags = [&ldquo;Probability&rdquo;]
+keywords = [&ldquo;Probability&rdquo;, &ldquo;Random Walks&rdquo;]
+description = &ldquo;SEO Description Here&rdquo;
+draft = false
+featuredImage = &ldquo;/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&rdquo;
+[params.math]
+math = true</p>
+<p><img src="/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg" alt="Image">
+<a href="https://unsplash.com/@vikceo">Image by Vivek Kumar</a></p>
+<p><strong>The Question</strong></p>
+<p>A couple chooses to keep having children till they have an equal number of boys and girls. How many children will they have on average? [1]</p>
+<p>In this article we will cover 2 ways to solve this problem. First using a random walk and proof by contradiction. The second is Optiver&rsquo;s solution to this problem which use Dyck&rsquo;s path.</p>
+<p><strong>Solution 1</strong></p>
+<p>Let $X_t$ denote the random variable for which child has been born at time $t$.</p>
+<p>Given the first child is already born at time 0. If the first child is a boy, then let $X_t$ take the value 1 if a boy is born at time t and let $X_t$ be -1 if a girl is born at time t. Similarly, if the first child is a girl, then  $X_t$ will take the value 1 if a girl is born at time t and we will take the value -1 if a girl has been born at time t.</p>
+<p>Using the random variable $X_t$, we can model this question as a 1D random walk starting at the point 1.
+<img src="/images/random_walk_1d.png" alt="Image"></p>
+<p>Without loss of generality, we will assume the first child to be born is a boy. If the next child born is a boy, we go up one, otherwise we go down one.</p>
+$$X_t = \begin{cases} 1 \quad  &w.p. 1/2 \ \ (\text{if a boy}) \\ -1 \quad &w.p. 1/2 \ \ (\text{if a girl})\end{cases}$$<p>The random walk will finish once we hit 0 (i.e. when we have had equal number of boys and girls).</p>
+<p>Now, let $W_x$ denote the number of walks starting from x to reach 0. More specifically, $W_x$ is the first time, given we have started at x, to hit 0.</p>
+$$\sum_{i=x}^{W_x} X_i = 0$$<p>
+Our goal is to determine $\mathbb{E}[W_1]$, i.e. the number of children needed to have an equal number of boys and girls, given that our first child is a boy.</p>
+<p>Spoiler warning. The answer is infinite and to prove this we will use a proof by contradiction. Given we are at step 1, let us suppose that $\mathbb{E}[W_1]$ is finite. Following this assumption and the formula for expectation:</p>
+$$\begin{align*}\mathbb{E}[W_1] &= \mathbb{P}[X_1 = -1] \mathbb{E}[W_1 | X_1 = -1] + \mathbb{P}[X_1 = 1] \mathbb{E}[W_1 | X_1 = 1] \\ &=\frac{1}{2}(1 + \mathbb{E}[W_0]) + \frac{1}{2}(1 + \mathbb{E}[W_2]) \\ &= 1 + \frac{1}{2}\mathbb{E}[W_2]\end{align*}$$<p>Given you are at step 2, returning back to step 1 is equivalent to being at step 1 and returning to step 0, i.e., they are identically distributed.</p>
+$$\mathbb{E}[W_2] = \mathbb{E}[W_1] + \mathbb{E}[W_1]$$<p>
+By substitution, we get:</p>
+$$\begin{align*}\mathbb{E}[W_1] &= 1 + \frac{1}{2}(\mathbb{E}[W_1] + \mathbb{E}[W_1]) \\ &= 1 + \mathbb{E}[W_1]\end{align*}$$<p>
+This is a contradiction! As a result, the expected number of children to have before you hit 0 is infinite.</p>
+<p><strong>Solution 2</strong></p>
+<p>For this solution, we&rsquo;ll start with the formula for the expectation of a discrete random variable.</p>
+$$\mathbb{E}[X] = \sum x . \mathbb{P}[X = x]$$<p>
+In our case, let $X$ be the random variable denoting the number of children needed to reach parity. We can then rewrite the formula above as:</p>
+$$\mathbb{E}[X] = \sum_{x=2}^\infty x . \mathbb{P}[X = x]$$<p>
+To solve this formula, we need to find $\mathbb{P}[X = x]$ for each value of $x$. To do this, we will model this question as a 2D random walk. Lets take $x=10$ as an example and we&rsquo;ll use the grid below.
+<img src="/images/2d_boy_girl_grid.drawio.png" alt="Image">
+Anytime the couple gives birth to a boy, a step to the right is taken and if a girl is birthed, a step up is taken. Equality is reached when the path hits the blue line.</p>
+<p>Representing the question using a 2d grid now opens the possibility of using something called <a href="https://mathworld.wolfram.com/DyckPath.html">Dyck&rsquo;s path</a> [2]. A Dyck path is a staircase walk from (0,0) to (n,n) that lies strictly below (but may touch) the diagonal y=x. The number of Dyck&rsquo;s paths of order n is given by the Catalan number:</p>
+$$C_n = \frac{1}{n+1} \binom{2n}{n}.$$<p>
+If the first child is a boy and we are looking at the paths to hit equality by child 10, then we know the final step must be a girl.
+<img src="/images/2d_boy_girl_grid_dycks.drawio.png" alt="Image">
+Using this methodology, any path from the first boy to the last girl which touches but does not surpass the red line, is a valid path. This allows us to use Dyck&rsquo;s path of degree 4.</p>
+$$C_4 = \frac{1}{5} \binom{8}{4} = 14$$<p>
+Consequently, the number of paths that start with a boy and achieves equality on the 10th child is 14. By symmetry, the number of paths that start with a girl and achieves equality on the 10th child is also 14.</p>
+<p>To convert this to a probability, we will divide by the total number of possible paths by the 10th child, which is $2^{10} = 1024$. So the probability of achieving equality of the 10th child is:</p>
+$$\mathbb{P}[X=10] = \frac{14 + 14}{1024} = \frac{28}{1024}.$$<p>Now, lets do the rest. Let $x=2k$ where $k\in \mathbb{Z}^+$.</p>
+$$\begin{align*} \mathbb{P}[X = 2k] &= \frac{2 C_{k-1}}{2^{2k}} \\ &= \frac{2}{k}\binom{2k-2}{k-1}\frac{1}{2^{2k}} \\ &= \frac{2}{4^kk} \binom{2k-2}{k-1}\end{align*}$$<p>
+By substitution:</p>
+$$\begin{align*}\mathbb{E}[X] &= \sum_{k=1}^\infty 2k . \mathbb{P}[X = 2k] \\ &= \sum_{k=1}^{\infty} 2k \frac{2}{4^kk} \binom{2k-2}{k-1} \\ &= \sum_{k=1}^{\infty} \frac{1}{4^{k-1}} \binom{2k-2}{k-1} \end{align*}$$<p>
+Substituting $n = k-1$ gives:</p>
+$$\begin{align*}\mathbb{E}[X] &= \sum_{n=0}^{\infty} \frac{1}{4^n} \binom{2n}{n} \end{align*}$$<p>
+Using the fact that:</p>
+$$4^n = 2^{2n} = (1 + 1)^{2n} = \sum_{m=0}^{2n} \binom{2n}{m} < (2n + 1) \binom{2n}{n}$$$$\frac{1}{4^n} \binom{2n}{n} > \frac{1}{2n+1}$$$$\begin{align*}\mathbb{E}[X] &= \sum_{n=0}^{\infty}\frac{1}{4^n} \binom{2n}{n} \\ &> \sum_{n=0}^\infty\frac{1}{2n+1} \\ &> \sum_{n=0}^\infty \sum{1}{2n} \\ &= \frac{1}{2} \sum_{n=0}^\infty \frac{1}{n} \\ &\rightarrow \infty \end{align*}$$<p>As a result, the expectation is infinite!</p>
+<h3 id="references">References</h3>
+<ol>
+<li>Optiver (2024). <em>Prove it - Ep5: Perpetual Children</em>. [online] YouTube. Available at: <a href="https://www.youtube.com/watch?v=YllN9Pz15cU">https://www.youtube.com/watch?v=YllN9Pz15cU</a> [Accessed 22 Dec. 2024].</li>
+<li>Weisstein, Eric W. “Dyck Path.” <em>Mathworld.wolfram.com</em>, 18 Dec. 2024, mathworld.wolfram.com/DyckPath.html.</li>
+</ol>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

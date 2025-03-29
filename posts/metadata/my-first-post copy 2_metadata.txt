@@ -1,0 +1,7 @@
++++
+date = '2025-01-18T17:34:42Z'
+draft = false
+title = 'My First Post'
+image = "/images/test.jpg"
+categories = ["Programming", "AI", "Machine Learning"]
++++

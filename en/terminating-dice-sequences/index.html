@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+    
+</head>
+<body>
+    
+    
+        <div class="banner">
+    <div class="navbar">
+        <h1><a href="/" class="logo">My Blog</a></h1>
+        <div class="navbar-links">
+            <a href="/archive">Archive</a>
+            <a href="/about">About Me</a>
+        </div>
+    </div>
+</div>
+    
+
+    
+    <main>
+        
+<article class="blog-post">
+    <h1></h1>
+    <p class="details">Jan 1, 0001 · 2 min read</p>
+
+    
+
+    <div class="content">
+        <p><img src="/images/robin-noguier-sydwCr54rf0-unsplash.jpg" alt="Image">
+<a href="https://unsplash.com/@robinnoguier">Image by Robin Nouguier</a></p>
+<h3 id="question">Question</h3>
+<p>What is the expected number of dice that need to be rolled till the sum exceeds 6? [1]</p>
+<h3 id="solution">Solution</h3>
+$$\mathbb{E}[X] = \sum_{i=1}^6 \mathbb{P}[X = i]$$$$\begin{align}\mathbb{E}[X] &= 1 \cdot \mathbb{P}[X=1] + 2 \cdot \mathbb{P}[X=2] + 3 \cdot \mathbb{P}[X=3] + 4 \cdot \mathbb{P}[X=4]  + 5 \cdot \mathbb{P}[X=5] + 6 \cdot \mathbb{P}[X=6] \\ &=\mathbb{P}[X=1] \\ &+ \mathbb{P}[X=2] + \mathbb{P}[X=2] \\ &+ \mathbb{P}[X=3] + \mathbb{P}[X=3] + \mathbb{P}[X=3] \\ &+ \mathbb{P}[X=4] + \mathbb{P}[X=4] + \mathbb{P}[X=4] + \mathbb{P}[X=4] \\ &+ \mathbb{P}[X=5] + \mathbb{P}[X=5] + \mathbb{P}[X=5] + \mathbb{P}[X=5]+ \mathbb{P}[X=5] \\ &+ \mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]. \\ &= \mathbb{P}[X>0]+\mathbb{P}[X>1]+\mathbb{P}[X>2]+\mathbb{P}[X>3]+\mathbb{P}[X>4]+\mathbb{P}[X>5]\end{align}$$$$\mathbb{E}[X] = \sum_{k=0}^5 \mathbb{P}[X>k]$$<p>
+So, our new goal is to calculate $\mathbb{P}[X>k]$ for $k \in \{0, ..., 5 \}$.</p>
+<p>Denote the dice throw at step $i$ be denoted as $d_i$. When $k=3$, the first 3 dice throws must sum to less than or equal to 5. This is  equivalent to finding:</p>
+$$\mathbb{P}[d_1+d_2+d_3 \leq 5] = \mathbb{P}[d_1+d_2+d_3 = 3] + \mathbb{P}[d_1+d_2+d_3 = 4] + \mathbb{P}[d_1+d_2+d_3 = 5].$$<p>Using the stars and bars theorem which states for n items and k bins, there are $\binom{n+k-1}{k-1}$ ways to distribute the items. [2]</p>
+<p>For $\mathbb{P}[d_1+d_2+d_3 = 5]$ we have 5 items and 3 bins but with the limitation that each bin must be of size greater than 1. Hence, there are $\binom{4}{2}$ ways to distribute the items.</p>
+$$\begin{align} \mathbb{P}[d_1+d_2+d_3 = 3] &= \frac{\binom{2}{2}}{6^3}, \\ \mathbb{P}[d_1+d_2+d_3 = 3] &= \frac{\binom{3}{2}}{6^3}, \\ \mathbb{P}[d_1+d_2+d_3 = 5] &= \frac{\binom{4}{2}}{6^3}.\end{align}$$<p>
+There&rsquo;s one final trick we can use from here called the Christmas Stocking Identity (also known as the Hockey Stick Identity) [3]. This states that:</p>
+$$\binom{r}{r} + \binom{r+1}{r} + ... + \binom{n}{r} = \binom{n+1}{r+1}.$$<p>Using this identity:</p>
+$$\mathbb{P}[d_1+d_2+d_3 \leq 5] = \frac{1}{6^3}\binom{5}{3}.$$<p>Returning to the discrete expectation formula:</p>
+$$\begin{align}\mathbb{E}[X] &= \sum_{k=0}^5 \mathbb{P}[X>k] \\ &= \sum_{k=0}^5 \frac{1}{6^k} \binom{5}{k} \\ &= (1 + \frac{1}{6})^5 \approx 2.16 \end{align}$$<p>So our answer is 2.16!</p>
+<h3 id="references">References:</h3>
+<ol>
+<li>Optiver (2024). <em>Prove it - Ep3: Terminating Dice Sums</em>. [online] YouTube. Available at: <a href="https://www.youtube.com/watch?v=YKE5SRXK_nI">https://www.youtube.com/watch?v=YKE5SRXK_nI</a> [Accessed 2 Jan. 2025].</li>
+<li>Wikipedia. (2023). <em>Stars and bars (combinatorics)</em>. [online] Available at: <a href="https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)">https://en.wikipedia.org/wiki/Stars_and_bars_(combinatorics)</a>.</li>
+<li>Wikipedia. (2023). <em>Hockey-stick identity</em>. [online] Available at: <a href="https://en.wikipedia.org/wiki/Hockey-stick_identity">https://en.wikipedia.org/wiki/Hockey-stick_identity</a>.</li>
+</ol>
+<p>‌</p>
+<p>‌</p>
+
+    </div>
+</article>
+
+    </main>
+
+    
+    <div class="footer">
+    <a href="mailto:benbradshaw01@outlook.com"><i class="fas fa-envelope"></i> benbradshaw01@outlook.com</a>
+    <a href="https://github.com/BenBradshawww" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    <a href="https://www.linkedin.com/in/ben-bradshaw-a9754b237/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+</div>
+</body>
+</html>

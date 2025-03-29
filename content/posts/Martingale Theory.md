@@ -1,105 +1,11 @@
 +++
 title = 'Martingale Theory'
 date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
+categories = ["Probability", "Martingales", "Optional-Stopping Theorem"]
 draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
+image = "/images/sq-lim-aWm7fAUNPEc-unsplash.jpg"
 +++
 
-+++
-title = 'Martingale Theory'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Martingale Theory'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Martingale Theory'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Martingale Theory'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Martingale Theory'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Martingale Theory'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Martingales", "Optional-Stopping Theorem"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/sq-lim-aWm7fAUNPEc-unsplash.jpg)
 [Image by sq lim](https://unsplash.com/@sql)

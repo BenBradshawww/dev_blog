@@ -1,105 +1,10 @@
 +++
 title = 'GAMs'
 date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
+categories = ["Statistical Modelling", "GAMs"]
 draft = false
-[params.math]
-math = true
+image = "/images/anh-vy--kJ542I1oVU-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'GAMs'
-date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'GAMs'
-date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'GAMs'
-date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'GAMs'
-date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'GAMs'
-date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'GAMs'
-date = 2024-12-18
-categories = ["Statistical Modelling"]
-tags = ["GAMs", "GLMs"]
-keywords = ["GAMs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/anh-vy--kJ542I1oVU-unsplash.jpg)
 [Image by Anh Vy.](https://unsplash.com/@anhvygor)

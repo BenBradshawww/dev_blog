@@ -37,13 +37,6 @@
       <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Some Questions in Probability I&amp;rsquo;&#xA;date = 2024-12-21&#xA;categories = [&amp;ldquo;Probability&amp;rdquo;]&#xA;tags = [&amp;ldquo;Probability&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Probability&amp;rdquo;, &amp;ldquo;Random Walks&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Some Questions in Probability I&amp;rsquo;&#xA;date = 2024-12-21&#xA;categories = [&amp;ldquo;Probability&amp;rdquo;]&#xA;tags = [&amp;ldquo;Probability&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Probability&amp;rdquo;, &amp;ldquo;Random Walks&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Martingale Theory</title>
-      <link>https://example.org/posts/martingale-theory/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/martingale-theory/</guid>
-      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Martingale Theory&amp;rsquo;&#xA;date = 2024-11-01&#xA;categories = [&amp;ldquo;Probability&amp;rdquo;]&#xA;tags = [&amp;ldquo;Probability&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Martingales&amp;rdquo;, &amp;ldquo;Optional-Stopping Theorem&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Martingale Theory&amp;rsquo;&#xA;date = 2024-11-01&#xA;categories = [&amp;ldquo;Probability&amp;rdquo;]&#xA;tags = [&amp;ldquo;Probability&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Martingales&amp;rdquo;, &amp;ldquo;Optional-Stopping Theorem&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>The Ant Problem</title>
       <link>https://example.org/posts/the-ant-problem/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>

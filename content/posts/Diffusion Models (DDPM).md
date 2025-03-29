@@ -1,105 +1,10 @@
 +++
 title = 'Diffusion Models (DDPM)'
 date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
+categories = ["AI", "Diffusion Models"]
+image="/images/justin-lim-tloFnD-7EpI-unsplash.jpg"
 draft = false
-[params.math]
-math = true
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Diffusion Models (DDPM)'
-date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Diffusion Models (DDPM)'
-date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Diffusion Models (DDPM)'
-date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Diffusion Models (DDPM)'
-date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Diffusion Models (DDPM)'
-date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Diffusion Models (DDPM)'
-date = 2024-08-30
-categories = ["Diffusion Models"]
-tags = ["Diffusion Models", "Auto Encoders"]
-keywords = ["Diffusion", "Forward Process", "Backward Process", "Auto Encoders"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/justin-lim-tloFnD-7EpI-unsplash.jpg)
 [Image by Justin Lim]

@@ -8,46 +8,25 @@
     <loc>https://example.org/</loc>
     <lastmod>2025-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/algorithms/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.org/categories/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/gamblers-ruin-for-a-symmetric-random-walk/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/categories/martingales/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.org/posts/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/ai/</loc>
-    <lastmod>2025-01-19T17:34:44+00:00</lastmod>
+    <loc>https://example.org/categories/probability/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/machine-learning/</loc>
-    <lastmod>2025-01-19T17:34:44+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/my-first-post-copy/</loc>
-    <lastmod>2025-01-19T17:34:44+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/programming/</loc>
-    <lastmod>2025-01-19T17:34:44+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/my-first-post/</loc>
-    <lastmod>2025-01-19T17:34:42+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/my-first-post-copy-4/</loc>
-    <lastmod>2025-01-19T17:34:42+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/my-first-post-copy-2/</loc>
-    <lastmod>2025-01-18T17:34:42+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/my-first-post-copy-3/</loc>
-    <lastmod>2025-01-18T17:34:42+00:00</lastmod>
+    <loc>https://example.org/categories/random-walks/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/tags/probability/</loc>
-    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/probability/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/some-questions-in-probability-ii/</loc>
@@ -65,6 +44,9 @@
     <loc>https://example.org/tags/machine-learning/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/categories/machine-learning/</loc>
+    <lastmod>2024-12-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.org/tags/trees/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -80,25 +62,22 @@
     <loc>https://example.org/posts/some-questions-in-probability-i/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/gams/</loc>
+    <loc>https://example.org/categories/gams/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/gams/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/glms/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.org/categories/statistical-modelling/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/docker/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/docker/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/martingale-theory/</loc>
+    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/optional-stopping-theorem/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/programming-tools/</loc>
@@ -112,12 +91,6 @@
   </url><url>
     <loc>https://example.org/tags/rest-apis/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/arima/</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/arma/</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/arma--arima/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
@@ -134,7 +107,7 @@
     <loc>https://example.org/posts/what-is-a-time-series--how-can-we-model-it/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/gnns/</loc>
+    <loc>https://example.org/categories/gnns/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/graphs/</loc>
@@ -143,16 +116,16 @@
     <loc>https://example.org/posts/message-passing-neural-networks/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/categories/mmpns/</loc>
+    <lastmod>2024-09-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.org/posts/kullback-leibler-divergence/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/statistics/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/auto-encoders/</loc>
-    <lastmod>2024-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/diffusion-models/</loc>
+    <loc>https://example.org/categories/ai/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/diffusion-models/</loc>
@@ -161,29 +134,20 @@
     <loc>https://example.org/posts/diffusion-models-ddpm/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/algorithms/</loc>
-    <lastmod>2024-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/dynamic-programming/</loc>
-    <lastmod>2024-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/dynamic-programming-in-solving-palindrome-partitioning/</loc>
-    <lastmod>2024-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/tags/gnn/</loc>
-    <lastmod>2024-07-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.org/posts/graphsage/</loc>
     <lastmod>2024-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/graph-factorisation-methods-in-shallow-graphs/</loc>
     <lastmod>2024-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/gans/</loc>
+    <loc>https://example.org/categories/gans/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/instance-normalisation-within-gans/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/auto-encoders/</loc>
+    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/auto-encoders/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
@@ -194,7 +158,19 @@
     <loc>https://example.org/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/categories/algorithms/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/dynamic-programming/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/dynamic-programming-in-solving-palindrome-partitioning/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.org/posts/non-convex-optimisation-learning-rate-scheduling/</loc>
+    <lastmod>2024-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/programming/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/archive/</loc>

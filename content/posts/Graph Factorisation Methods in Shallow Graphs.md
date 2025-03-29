@@ -2,104 +2,10 @@
 title = 'Graph Factorisation Methods in Shallow Graphs'
 date = 2024-07-20
 categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
 draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
+image="/images/photo-1706391162070-60a37dee114d.avif"
 +++
 
-+++
-title = 'Graph Factorisation Methods in Shallow Graphs'
-date = 2024-07-20
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Graph Factorisation Methods in Shallow Graphs'
-date = 2024-07-20
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Graph Factorisation Methods in Shallow Graphs'
-date = 2024-07-20
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Graph Factorisation Methods in Shallow Graphs'
-date = 2024-07-20
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Graph Factorisation Methods in Shallow Graphs'
-date = 2024-07-20
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Graph Factorisation Methods in Shallow Graphs'
-date = 2024-07-20
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "Locally Linear Embeddings", "Graph Factorisation", "GraRep", "Laplacian Eigenmaps"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/photo-1706391162070-60a37dee114d.avif)
 

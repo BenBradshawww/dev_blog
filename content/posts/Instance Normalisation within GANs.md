@@ -1,105 +1,10 @@
 +++
 title = 'Instance Normalisation within GANs'
 date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
+categories = ["Graphs", "GANs"]
 draft = false
-[params.math]
-math = true
+image = "/images/justin-simmonds-oGKncrpXn70-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Instance Normalisation within GANs'
-date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Instance Normalisation within GANs'
-date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Instance Normalisation within GANs'
-date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Instance Normalisation within GANs'
-date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Instance Normalisation within GANs'
-date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Instance Normalisation within GANs'
-date = 2024-07-13
-categories = ["Graphs"]
-tags = ["GANs"]
-keywords = ["GANs", "Instance Normalisation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/justin-simmonds-oGKncrpXn70-unsplash.jpg)
 [Image by Justin Simmonds](https://unsplash.com/@justsimms?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

@@ -1,105 +1,10 @@
 +++
 title = 'Kullback-Leibler Divergence'
 date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
+categories = ["Statistics", "Machine Learning"]
 draft = false
-[params.math]
-math = true
+image = "/images/daniela-turcanu-wABdckxoj90-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Kullback-Leibler Divergence'
-date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Kullback-Leibler Divergence'
-date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Kullback-Leibler Divergence'
-date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Kullback-Leibler Divergence'
-date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Kullback-Leibler Divergence'
-date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Kullback-Leibler Divergence'
-date = 2024-09-10
-categories = ["Statistics"]
-tags = ["Machine Learning", "Statistics"]
-keywords = ["Kullback-Leibler Divergence", "KL Divergence"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/daniela-turcanu-wABdckxoj90-unsplash.jpg)
 [Image by Daniela Turcanu](https://unsplash.com/@protopopica?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

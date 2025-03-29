@@ -1,105 +1,10 @@
 +++
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
+title = "Dynamic Programming in Solving Palindrome Partitioning"
+date = 2024-06-21
+categories = ["Algorithms", "Dynamic Programming"]
 draft = false
-[params.math]
-math = true
+image="/images/danny-greenberg-cbN8rxHr5S0-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Dynamic Programming in Solving Palindrome Partitioning'
-date = 2024-08-24
-categories = ["Algorithms"]
-tags = ["Dynamic Programming", "Algorithms"]
-keywords = ["Dynamic Programming", "Palindrome", "Algorithms"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/danny-greenberg-cbN8rxHr5S0-unsplash.jpg)
 [Image by Danny Greenberg](https://unsplash.com/@by_danny_g?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

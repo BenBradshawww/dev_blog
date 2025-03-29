@@ -9,13 +9,6 @@
     <lastBuildDate>Sat, 05 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ARMA &amp; ARIMA</title>
-      <link>https://example.org/posts/arma--arima/</link>
-      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/arma--arima/</guid>
-      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;ARMA &amp;amp; ARIMA&amp;rsquo;&#xA;date = 2024-10-05&#xA;categories = [&amp;ldquo;Time Series&amp;rdquo;]&#xA;tags = [&amp;ldquo;Time Series&amp;rdquo;, &amp;ldquo;ARMA&amp;rdquo;, &amp;ldquo;ARIMA&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Time Series&amp;rdquo;, &amp;ldquo;ARMA&amp;rdquo;, &amp;ldquo;ARIMA&amp;rdquo;, &amp;ldquo;PACF&amp;rdquo;, &amp;ldquo;EACF&amp;rdquo;, &amp;ldquo;Indeterministic Processes&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;ARMA &amp;amp; ARIMA&amp;rsquo;&#xA;date = 2024-10-05&#xA;categories = [&amp;ldquo;Time Series&amp;rdquo;]&#xA;tags = [&amp;ldquo;Time Series&amp;rdquo;, &amp;ldquo;ARMA&amp;rdquo;, &amp;ldquo;ARIMA&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Time Series&amp;rdquo;, &amp;ldquo;ARMA&amp;rdquo;, &amp;ldquo;ARIMA&amp;rdquo;, &amp;ldquo;PACF&amp;rdquo;, &amp;ldquo;EACF&amp;rdquo;, &amp;ldquo;Indeterministic Processes&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>What is a Time Series &amp; How can we Model it?</title>
       <link>https://example.org/posts/what-is-a-time-series--how-can-we-model-it/</link>
       <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>

@@ -1,105 +1,11 @@
 +++
 title = 'Graph Sage'
 date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
+categories = ["Graphs", "GNNs"]
 draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
+image = "/images/cajeo-zhang-20JfNRPsMCo-unsplash.jpg"
 +++
 
-+++
-title = 'Graph Sage'
-date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Graph Sage'
-date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Graph Sage'
-date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Graph Sage'
-date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Graph Sage'
-date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Graph Sage'
-date = 2024-07-27
-categories = ["Graphs"]
-tags = ["GNN"]
-keywords = ["GNNs", "GraphSage"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/cajeo-zhang-20JfNRPsMCo-unsplash.jpg)
 [Image by Cajeo Zhang](https://unsplash.com/@cajeo?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

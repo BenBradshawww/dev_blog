@@ -39,103 +39,22 @@
         
 <article class="blog-post">
     <h1>Diffusion Models (DDPM)</h1>
-    <p class="details">Aug 30, 2024 · 14 min read</p>
+    <p class="details">Aug 30, 2024 · 13 min read</p>
 
     
     <p class="categories">Categories: 
         
             
+            <a href="/categories/ai">AI</a>
+        
+            , 
             <a href="/categories/diffusion-models">Diffusion Models</a>
         
     </p>
     
 
     <div class="content">
-        <p>+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>+++
-title = &lsquo;Diffusion Models (DDPM)&rsquo;
-date = 2024-08-30
-categories = [&ldquo;Diffusion Models&rdquo;]
-tags = [&ldquo;Diffusion Models&rdquo;, &ldquo;Auto Encoders&rdquo;]
-keywords = [&ldquo;Diffusion&rdquo;, &ldquo;Forward Process&rdquo;, &ldquo;Backward Process&rdquo;, &ldquo;Auto Encoders&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>+++
-title = &lsquo;Diffusion Models (DDPM)&rsquo;
-date = 2024-08-30
-categories = [&ldquo;Diffusion Models&rdquo;]
-tags = [&ldquo;Diffusion Models&rdquo;, &ldquo;Auto Encoders&rdquo;]
-keywords = [&ldquo;Diffusion&rdquo;, &ldquo;Forward Process&rdquo;, &ldquo;Backward Process&rdquo;, &ldquo;Auto Encoders&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>+++
-title = &lsquo;Diffusion Models (DDPM)&rsquo;
-date = 2024-08-30
-categories = [&ldquo;Diffusion Models&rdquo;]
-tags = [&ldquo;Diffusion Models&rdquo;, &ldquo;Auto Encoders&rdquo;]
-keywords = [&ldquo;Diffusion&rdquo;, &ldquo;Forward Process&rdquo;, &ldquo;Backward Process&rdquo;, &ldquo;Auto Encoders&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>title = &lsquo;Diffusion Models (DDPM)&rsquo;
-date = 2024-08-30
-categories = [&ldquo;Diffusion Models&rdquo;]
-tags = [&ldquo;Diffusion Models&rdquo;, &ldquo;Auto Encoders&rdquo;]
-keywords = [&ldquo;Diffusion&rdquo;, &ldquo;Forward Process&rdquo;, &ldquo;Backward Process&rdquo;, &ldquo;Auto Encoders&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true</p>
-<p>title = &lsquo;Diffusion Models (DDPM)&rsquo;
-date = 2024-08-30
-categories = [&ldquo;Diffusion Models&rdquo;]
-tags = [&ldquo;Diffusion Models&rdquo;, &ldquo;Auto Encoders&rdquo;]
-keywords = [&ldquo;Diffusion&rdquo;, &ldquo;Forward Process&rdquo;, &ldquo;Backward Process&rdquo;, &ldquo;Auto Encoders&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true</p>
-<p>title = &lsquo;Diffusion Models (DDPM)&rsquo;
-date = 2024-08-30
-categories = [&ldquo;Diffusion Models&rdquo;]
-tags = [&ldquo;Diffusion Models&rdquo;, &ldquo;Auto Encoders&rdquo;]
-keywords = [&ldquo;Diffusion&rdquo;, &ldquo;Forward Process&rdquo;, &ldquo;Backward Process&rdquo;, &ldquo;Auto Encoders&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true</p>
-<p><img src="/images/justin-lim-tloFnD-7EpI-unsplash.jpg" alt="Image">
+        <p><img src="/images/justin-lim-tloFnD-7EpI-unsplash.jpg" alt="Image">
 [Image by Justin Lim]</p>
 <h3 id="introduction">Introduction</h3>
 <p>This article will delve into diffusion models, a group of latent variable (see definitions) generative models with applications in image generation, audio synthesis, and denoising. More specifically, this article will mostly focus on the derivations and the ideas behind diffusion models, with a heavy enthuses on the ideas introduced in <a href="https://arxiv.org/pdf/2006.11239">Ho et al.</a> in his Denoising Diffusion Probabilisitic Models paper (DDPMs). The applications of these models will not be covered today.</p>

@@ -6,15 +6,8 @@
     <description>Recent content in Probability on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/tags/probability/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Gambler&#39;s Ruin for a Symmetric Random Walk</title>
-      <link>https://example.org/posts/gamblers-ruin-for-a-symmetric-random-walk/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/gamblers-ruin-for-a-symmetric-random-walk/</guid>
-      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;ldquo;Gambler&amp;rsquo;s Ruin for a Symmetric Random Walk&amp;rdquo;&#xA;date = 2025-01-20&#xA;categories = [&amp;ldquo;Algorithms&amp;rdquo;]&#xA;tags = [&amp;ldquo;Probability&amp;rdquo;, &amp;ldquo;Random Walk&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Probability&amp;rdquo;, &amp;ldquo;Symmetry&amp;rdquo;, &amp;ldquo;Random Walk&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;ldquo;Gambler&amp;rsquo;s Ruin for a Symmetric Random Walk&amp;rdquo;&#xA;date = 2025-01-20&#xA;categories = [&amp;ldquo;Algorithms&amp;rdquo;]&#xA;tags = [&amp;ldquo;Probability&amp;rdquo;, &amp;ldquo;Random Walk&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Probability&amp;rdquo;, &amp;ldquo;Symmetry&amp;rdquo;, &amp;ldquo;Random Walk&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Some Questions in Probability II</title>
       <link>https://example.org/posts/some-questions-in-probability-ii/</link>

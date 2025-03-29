@@ -3,6 +3,7 @@ title = "Gambler's Ruin for a Symmetric Random Walk"
 date = 2025-01-20
 categories = ["Algorithms"]
 draft = false
+image="/images/jakob-owens-EroR0Ah9hqI-unsplash.jpg"
 +++
 
 

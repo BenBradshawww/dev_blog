@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://example.org/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Martingales</title>
-      <link>http://localhost:1313/categories/martingales/</link>
+      <link>https://example.org/categories/martingales/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/martingales/</guid>
+      <guid>https://example.org/categories/martingales/</guid>
       <description></description>
     </item>
     <item>
       <title>Probability</title>
-      <link>http://localhost:1313/categories/probability/</link>
+      <link>https://example.org/categories/probability/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/probability/</guid>
+      <guid>https://example.org/categories/probability/</guid>
       <description></description>
     </item>
     <item>
       <title>Random Walks</title>
-      <link>http://localhost:1313/categories/random-walks/</link>
+      <link>https://example.org/categories/random-walks/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/random-walks/</guid>
+      <guid>https://example.org/categories/random-walks/</guid>
       <description></description>
     </item>
     <item>
       <title>Expectation</title>
-      <link>http://localhost:1313/categories/expectation/</link>
+      <link>https://example.org/categories/expectation/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/expectation/</guid>
+      <guid>https://example.org/categories/expectation/</guid>
       <description></description>
     </item>
     <item>
       <title>Optiver</title>
-      <link>http://localhost:1313/categories/optiver/</link>
+      <link>https://example.org/categories/optiver/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/optiver/</guid>
+      <guid>https://example.org/categories/optiver/</guid>
       <description></description>
     </item>
     <item>
       <title>Boosting</title>
-      <link>http://localhost:1313/categories/boosting/</link>
+      <link>https://example.org/categories/boosting/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/boosting/</guid>
+      <guid>https://example.org/categories/boosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Decision Trees</title>
-      <link>http://localhost:1313/categories/decision-trees/</link>
+      <link>https://example.org/categories/decision-trees/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/decision-trees/</guid>
+      <guid>https://example.org/categories/decision-trees/</guid>
       <description></description>
     </item>
     <item>
       <title>Gradient Boosting</title>
-      <link>http://localhost:1313/categories/gradient-boosting/</link>
+      <link>https://example.org/categories/gradient-boosting/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gradient-boosting/</guid>
+      <guid>https://example.org/categories/gradient-boosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/categories/machine-learning/</link>
+      <link>https://example.org/categories/machine-learning/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/machine-learning/</guid>
+      <guid>https://example.org/categories/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Trees</title>
-      <link>http://localhost:1313/categories/trees/</link>
+      <link>https://example.org/categories/trees/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/trees/</guid>
+      <guid>https://example.org/categories/trees/</guid>
       <description></description>
     </item>
     <item>
       <title>GAMs</title>
-      <link>http://localhost:1313/categories/gams/</link>
+      <link>https://example.org/categories/gams/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gams/</guid>
+      <guid>https://example.org/categories/gams/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistical Modelling</title>
-      <link>http://localhost:1313/categories/statistical-modelling/</link>
+      <link>https://example.org/categories/statistical-modelling/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/statistical-modelling/</guid>
+      <guid>https://example.org/categories/statistical-modelling/</guid>
       <description></description>
     </item>
     <item>
       <title>Optional-Stopping Theorem</title>
-      <link>http://localhost:1313/categories/optional-stopping-theorem/</link>
+      <link>https://example.org/categories/optional-stopping-theorem/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/optional-stopping-theorem/</guid>
+      <guid>https://example.org/categories/optional-stopping-theorem/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming Tools</title>
-      <link>http://localhost:1313/categories/programming-tools/</link>
+      <link>https://example.org/categories/programming-tools/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/programming-tools/</guid>
+      <guid>https://example.org/categories/programming-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Statistics</title>
-      <link>http://localhost:1313/categories/statistics/</link>
+      <link>https://example.org/categories/statistics/</link>
       <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/statistics/</guid>
+      <guid>https://example.org/categories/statistics/</guid>
       <description></description>
     </item>
     <item>
       <title>Time Series</title>
-      <link>http://localhost:1313/categories/time-series/</link>
+      <link>https://example.org/categories/time-series/</link>
       <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/time-series/</guid>
+      <guid>https://example.org/categories/time-series/</guid>
       <description></description>
     </item>
     <item>
       <title>GNNs</title>
-      <link>http://localhost:1313/categories/gnns/</link>
+      <link>https://example.org/categories/gnns/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gnns/</guid>
+      <guid>https://example.org/categories/gnns/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphs</title>
-      <link>http://localhost:1313/categories/graphs/</link>
+      <link>https://example.org/categories/graphs/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/graphs/</guid>
+      <guid>https://example.org/categories/graphs/</guid>
       <description></description>
     </item>
     <item>
       <title>MMPNs</title>
-      <link>http://localhost:1313/categories/mmpns/</link>
+      <link>https://example.org/categories/mmpns/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/mmpns/</guid>
+      <guid>https://example.org/categories/mmpns/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/categories/ai/</link>
+      <link>https://example.org/categories/ai/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ai/</guid>
+      <guid>https://example.org/categories/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Diffusion Models</title>
-      <link>http://localhost:1313/categories/diffusion-models/</link>
+      <link>https://example.org/categories/diffusion-models/</link>
       <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/diffusion-models/</guid>
+      <guid>https://example.org/categories/diffusion-models/</guid>
       <description></description>
     </item>
     <item>
       <title>GANs</title>
-      <link>http://localhost:1313/categories/gans/</link>
+      <link>https://example.org/categories/gans/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gans/</guid>
+      <guid>https://example.org/categories/gans/</guid>
       <description></description>
     </item>
     <item>
       <title>Auto-Encoders</title>
-      <link>http://localhost:1313/categories/auto-encoders/</link>
+      <link>https://example.org/categories/auto-encoders/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/auto-encoders/</guid>
+      <guid>https://example.org/categories/auto-encoders/</guid>
       <description></description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>http://localhost:1313/categories/algorithms/</link>
+      <link>https://example.org/categories/algorithms/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/algorithms/</guid>
+      <guid>https://example.org/categories/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Programming</title>
-      <link>http://localhost:1313/categories/dynamic-programming/</link>
+      <link>https://example.org/categories/dynamic-programming/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dynamic-programming/</guid>
+      <guid>https://example.org/categories/dynamic-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/categories/programming/</link>
+      <link>https://example.org/categories/programming/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/programming/</guid>
+      <guid>https://example.org/categories/programming/</guid>
       <description></description>
     </item>
   </channel>

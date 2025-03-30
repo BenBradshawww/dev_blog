@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Random Walks on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/random-walks/</link>
+    <link>https://example.org/categories/random-walks/</link>
     <description>Recent content in Random Walks on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/random-walks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/random-walks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gambler&#39;s Ruin for a Symmetric Random Walk</title>
-      <link>http://localhost:1313/posts/gamblers-ruin-for-a-symmetric-random-walk/</link>
+      <link>https://example.org/posts/gamblers-ruin-for-a-symmetric-random-walk/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gamblers-ruin-for-a-symmetric-random-walk/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/jakob-owens-EroR0Ah9hqI-unsplash.jpg&#34; alt=&#34;Image by Jacob Owens: https://unsplash.com/@jakobowens1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A gambler starts with i dollars and bets $1 on a fair coin toss, winning $1 on heads and losing $1 on tails. The game stops when the gambler reaches 0 or N dollars.&lt;/p&gt;&#xA;&lt;p&gt;• Derive the probability $p_i$ that the gambler reaches N dollars (i.e. “wins”) before going broke.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll cover 3 ways to approach this questions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-1&#34;&gt;Solution 1&lt;/h2&gt;&#xA;&lt;p&gt;Let $p_i$ denote the probability of reaching N dollars given he currently has i dollars.&lt;/p&gt;</description>
+      <guid>https://example.org/posts/gamblers-ruin-for-a-symmetric-random-walk/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/jakob-owens-EroR0Ah9hqI-unsplash.jpg&#34; alt=&#34;Image by Jacob Owens: https://unsplash.com/@jakobowens1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A gambler starts with i dollars and bets $1 on a fair coin toss, winning $1 on heads and losing $1 on tails. The game stops when the gambler reaches 0 or N dollars.&lt;/p&gt;&#xA;&lt;p&gt;• Derive the probability $p_i$ that the gambler reaches N dollars (i.e. “wins”) before going broke.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll cover 3 ways to approach this questions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-1&#34;&gt;Solution 1&lt;/h2&gt;&#xA;&lt;p&gt;Let $p_i$ denote the probability of reaching N dollars given he currently has i dollars.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Some Questions in Probability II</title>
-      <link>http://localhost:1313/posts/some-questions-in-probability-ii/</link>
+      <link>https://example.org/posts/some-questions-in-probability-ii/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/some-questions-in-probability-ii/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/hannes-knutsson-2icXZAriT_E-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://unsplash.com/@hannesknutsson&#34;&gt;Image by Hannes Knutsson&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;question&#34;&gt;Question:&lt;/h3&gt;&#xA;&lt;p&gt;On average, how many rolls would it take to get two of the same face when rolling a die.&lt;/p&gt;&#xA;&lt;p&gt;For example, acceptable sequences with two of the same face include 2344, 1234566, and 123453. [1]&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;p&gt;There are two ways you could approach this question, either using markov chains or permutations. Of these, we will focus on the latter, the easier of the two.&lt;/p&gt;</description>
+      <guid>https://example.org/posts/some-questions-in-probability-ii/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/hannes-knutsson-2icXZAriT_E-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://unsplash.com/@hannesknutsson&#34;&gt;Image by Hannes Knutsson&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;question&#34;&gt;Question:&lt;/h3&gt;&#xA;&lt;p&gt;On average, how many rolls would it take to get two of the same face when rolling a die.&lt;/p&gt;&#xA;&lt;p&gt;For example, acceptable sequences with two of the same face include 2344, 1234566, and 123453. [1]&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;&#xA;&lt;p&gt;There are two ways you could approach this question, either using markov chains or permutations. Of these, we will focus on the latter, the easier of the two.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Terminating Dice Sequences</title>
-      <link>http://localhost:1313/posts/terminating-dice-sequences/</link>
+      <link>https://example.org/posts/terminating-dice-sequences/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/terminating-dice-sequences/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/robin-noguier-sydwCr54rf0-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@robinnoguier&#34;&gt;Image by Robin Nouguier&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;question&#34;&gt;Question&lt;/h3&gt;&#xA;&lt;p&gt;What is the expected number of dice that need to be rolled till the sum exceeds 6? [1]&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;&#xA;&lt;p&gt;To do this, we&amp;rsquo;ll start with the formula for expectation for discrete random variables:&lt;/p&gt;&#xA;$$\mathbb{E}[X] = \sum_{i=1}^6 \mathbb{P}[X = i]$$&lt;p&gt;There is a neat trick you can use where:&lt;/p&gt;&#xA;$$\begin{align}\mathbb{E}[X] &amp;= 1 \cdot \mathbb{P}[X=1] + 2 \cdot \mathbb{P}[X=2] + 3 \cdot \mathbb{P}[X=3] + 4 \cdot \mathbb{P}[X=4]  + 5 \cdot \mathbb{P}[X=5] + 6 \cdot \mathbb{P}[X=6] \\ &amp;=\mathbb{P}[X=1] \\ &amp;+ \mathbb{P}[X=2] + \mathbb{P}[X=2] \\ &amp;+ \mathbb{P}[X=3] + \mathbb{P}[X=3] + \mathbb{P}[X=3] \\ &amp;+ \mathbb{P}[X=4] + \mathbb{P}[X=4] + \mathbb{P}[X=4] + \mathbb{P}[X=4] \\ &amp;+ \mathbb{P}[X=5] + \mathbb{P}[X=5] + \mathbb{P}[X=5] + \mathbb{P}[X=5]+ \mathbb{P}[X=5] \\ &amp;+ \mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]. \\ &amp;= \mathbb{P}[X&gt;0]+\mathbb{P}[X&gt;1]+\mathbb{P}[X&gt;2]+\mathbb{P}[X&gt;3]+\mathbb{P}[X&gt;4]+\mathbb{P}[X&gt;5]\end{align}$$&lt;p&gt;&#xA;This gives a new formula for expectation written as:&lt;/p&gt;</description>
+      <guid>https://example.org/posts/terminating-dice-sequences/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/robin-noguier-sydwCr54rf0-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@robinnoguier&#34;&gt;Image by Robin Nouguier&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;question&#34;&gt;Question&lt;/h3&gt;&#xA;&lt;p&gt;What is the expected number of dice that need to be rolled till the sum exceeds 6? [1]&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;&#xA;&lt;p&gt;To do this, we&amp;rsquo;ll start with the formula for expectation for discrete random variables:&lt;/p&gt;&#xA;$$\mathbb{E}[X] = \sum_{i=1}^6 \mathbb{P}[X = i]$$&lt;p&gt;There is a neat trick you can use where:&lt;/p&gt;&#xA;$$\begin{align}\mathbb{E}[X] &amp;= 1 \cdot \mathbb{P}[X=1] + 2 \cdot \mathbb{P}[X=2] + 3 \cdot \mathbb{P}[X=3] + 4 \cdot \mathbb{P}[X=4]  + 5 \cdot \mathbb{P}[X=5] + 6 \cdot \mathbb{P}[X=6] \\ &amp;=\mathbb{P}[X=1] \\ &amp;+ \mathbb{P}[X=2] + \mathbb{P}[X=2] \\ &amp;+ \mathbb{P}[X=3] + \mathbb{P}[X=3] + \mathbb{P}[X=3] \\ &amp;+ \mathbb{P}[X=4] + \mathbb{P}[X=4] + \mathbb{P}[X=4] + \mathbb{P}[X=4] \\ &amp;+ \mathbb{P}[X=5] + \mathbb{P}[X=5] + \mathbb{P}[X=5] + \mathbb{P}[X=5]+ \mathbb{P}[X=5] \\ &amp;+ \mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]+\mathbb{P}[X=6]. \\ &amp;= \mathbb{P}[X&gt;0]+\mathbb{P}[X&gt;1]+\mathbb{P}[X&gt;2]+\mathbb{P}[X&gt;3]+\mathbb{P}[X&gt;4]+\mathbb{P}[X&gt;5]\end{align}$$&lt;p&gt;&#xA;This gives a new formula for expectation written as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Some Questions in Probability I</title>
-      <link>http://localhost:1313/posts/some-questions-in-probability-i/</link>
+      <link>https://example.org/posts/some-questions-in-probability-i/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/some-questions-in-probability-i/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/cameron-cress-OZZIrjLTmA8-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@cam_cress&#34;&gt;Image by Cameron Cress&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-drunkard&#34;&gt;The Drunkard&lt;/h2&gt;&#xA;&lt;p&gt;Suppose someone has had a heavy evening in the pub and upon leaving the pub they have somehow ended up by the side of a cliff. Since he has one a one too many drinks he can&amp;rsquo;t walk well and they now has 1/3 probability to walk off the edge of the cliff or 2/3 probability to take a step backwards. What is the probability that he will eventually fall off the edge of the cliff?&lt;/p&gt;</description>
+      <guid>https://example.org/posts/some-questions-in-probability-i/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/cameron-cress-OZZIrjLTmA8-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@cam_cress&#34;&gt;Image by Cameron Cress&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-drunkard&#34;&gt;The Drunkard&lt;/h2&gt;&#xA;&lt;p&gt;Suppose someone has had a heavy evening in the pub and upon leaving the pub they have somehow ended up by the side of a cliff. Since he has one a one too many drinks he can&amp;rsquo;t walk well and they now has 1/3 probability to walk off the edge of the cliff or 2/3 probability to take a step backwards. What is the probability that he will eventually fall off the edge of the cliff?&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Ant Problem</title>
-      <link>http://localhost:1313/posts/the-ant-problem/</link>
+      <link>https://example.org/posts/the-ant-problem/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/the-ant-problem/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/mi_shots-8SJwz4nk7FA-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@mi_shots?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;Image by mi_shots&lt;/a&gt;&#xA;Today we&amp;rsquo;ll be looking at a classic problem in probability: &amp;ldquo;The Ant Problem&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-question&#34;&gt;The Question:&lt;/h2&gt;&#xA;&lt;p&gt;An ant leaves its anthill in order to forage for food. It moves with the speed of 10cm per second, but it doesn&amp;rsquo;t know where to go, therefore every second it moves randomly 10cm directly north, south, east or west with equal probability.&lt;/p&gt;&#xA;&lt;p&gt;a) If the food is located on east-west lines 20cm to the north and 20cm to the south, as well as on north-south lines 20cm to the east and 20cm to the west from the anthill, how long will it take the ant to reach it on average?&lt;/p&gt;</description>
+      <guid>https://example.org/posts/the-ant-problem/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/mi_shots-8SJwz4nk7FA-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@mi_shots?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;Image by mi_shots&lt;/a&gt;&#xA;Today we&amp;rsquo;ll be looking at a classic problem in probability: &amp;ldquo;The Ant Problem&amp;rdquo;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-question&#34;&gt;The Question:&lt;/h2&gt;&#xA;&lt;p&gt;An ant leaves its anthill in order to forage for food. It moves with the speed of 10cm per second, but it doesn&amp;rsquo;t know where to go, therefore every second it moves randomly 10cm directly north, south, east or west with equal probability.&lt;/p&gt;&#xA;&lt;p&gt;a) If the food is located on east-west lines 20cm to the north and 20cm to the south, as well as on north-south lines 20cm to the east and 20cm to the west from the anthill, how long will it take the ant to reach it on average?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

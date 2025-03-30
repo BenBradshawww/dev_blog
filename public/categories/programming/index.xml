@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/programming/</link>
+    <link>https://example.org/categories/programming/</link>
     <description>Recent content in Programming on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-Convex Optimisation Learning Rate Scheduling</title>
-      <link>http://localhost:1313/posts/non-convex-optimisation-learning-rate-scheduling/</link>
+      <link>https://example.org/posts/non-convex-optimisation-learning-rate-scheduling/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/non-convex-optimisation-learning-rate-scheduling/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@joshuas?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;Image by Joshua Sukoff&lt;/a&gt;&#xA;One of the most crucial hyperparameters in any machine learning (ML) model is the learning rate. A small learning rate often results in longer training times and can lead to overfitting. Conversely, a large learning rate may accelerate initial training but risks hindering the model’s convergence to the global minimum and can even cause divergence. Therefore, selecting the appropriate learning rate is a critical step in training any ML model.&lt;/p&gt;</description>
+      <guid>https://example.org/posts/non-convex-optimisation-learning-rate-scheduling/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@joshuas?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;Image by Joshua Sukoff&lt;/a&gt;&#xA;One of the most crucial hyperparameters in any machine learning (ML) model is the learning rate. A small learning rate often results in longer training times and can lead to overfitting. Conversely, a large learning rate may accelerate initial training but risks hindering the model’s convergence to the global minimum and can even cause divergence. Therefore, selecting the appropriate learning rate is a critical step in training any ML model.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

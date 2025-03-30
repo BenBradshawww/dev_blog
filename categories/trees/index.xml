@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trees on My New Hugo Site</title>
-    <link>https://example.org/categories/trees/</link>
+    <link>http://localhost:1313/categories/trees/</link>
     <description>Recent content in Trees on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/categories/trees/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/trees/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XGBoost</title>
-      <link>https://example.org/posts/xgboost/</link>
+      <link>http://localhost:1313/posts/xgboost/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/xgboost/</guid>
-      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;XGBoost&amp;rsquo;&#xA;date = 2024-12-26&#xA;categories = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;]&#xA;tags = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;, &amp;ldquo;Boosting&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Trees&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;ML&amp;rdquo;, &amp;ldquo;Decision Trees&amp;rdquo;, &amp;ldquo;Boosting&amp;rdquo;, &amp;ldquo;Gradient Boosting&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;XGBoost&amp;rsquo;&#xA;date = 2024-12-26&#xA;categories = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;]&#xA;tags = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;, &amp;ldquo;Boosting&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Trees&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;ML&amp;rdquo;, &amp;ldquo;Decision Trees&amp;rdquo;, &amp;ldquo;Boosting&amp;rdquo;, &amp;ldquo;Gradient Boosting&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/xgboost/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/bob-brewer-f309SjsrC3I-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@brewbottle&#34;&gt;Image by Bob Brewer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Since the introduction of gradient tree boosting methods, tree boosting methods have often been the highest performing models across many tabular benchmarks. Alongside this, they have often be the winning models in many Kaggle competitions. Today we&amp;rsquo;ll cover the most popular of these models: XGBoost.&lt;/p&gt;&#xA;&lt;p&gt;XGBoost popularity stems from many reasons, with the most important being its scalability to all scenarios. It is one of the fastest tree based models to train because of the algorithms used with sparse data and it&amp;rsquo;s exploitation of parallel and distributed computing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Do Trees Outperform Neural Networks on Tabular Data?</title>
-      <link>https://example.org/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</link>
+      <link>http://localhost:1313/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</guid>
-      <description>&lt;p&gt;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Why Do Trees Outperform Neural Networks on Tabular Data?&amp;rsquo;&#xA;date = 2024-06-27&#xA;categories = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;]&#xA;tags = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Trees&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;ML&amp;rdquo;, &amp;ldquo;Random Forests&amp;rdquo;, &amp;ldquo;Random Forest&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;+++&#xA;title = &amp;lsquo;Why Do Trees Outperform Neural Networks on Tabular Data?&amp;rsquo;&#xA;date = 2024-06-27&#xA;categories = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;]&#xA;tags = [&amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Trees&amp;rdquo;]&#xA;keywords = [&amp;ldquo;Trees&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;ML&amp;rdquo;, &amp;ldquo;Random Forests&amp;rdquo;, &amp;ldquo;Random Forest&amp;rdquo;]&#xA;description = &amp;ldquo;SEO Description Here&amp;rdquo;&#xA;draft = false&#xA;[params.math]&#xA;math = true&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&#xA;+++&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/photo-1458966480358-a0ac42de0a7a.avif&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@toddquackenbush?utm_source=ghost&amp;amp;utm_medium=referral&amp;amp;utm_campaign=api-credit&#34;&gt;Image by Todd Quackenbush&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the past 30 years, tree-based algorithms such as Adaboost and Random Forests have been the go-to methods for solving tabular data problems. While neural networks (NNs) have been used in this context, they have historically struggled to match the performance of tree-based methods. Despite recent advancements in NN capabilities and their success in tasks from computer vision, language translation, and image generation, tree-based algorithms still outperform neural networks when it comes to tabular data. This article will introduce several reasons behind the continued dominance of tree-based methods in this domain.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

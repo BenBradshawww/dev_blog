@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
@@ -39,7 +39,7 @@
         
 <article class="blog-post">
     <h1>XGBoost</h1>
-    <p class="details">Dec 26, 2024 · 9 min read</p>
+    <p class="details">Dec 26, 2024 · 8 min read</p>
 
     
     <p class="categories">Categories: 
@@ -50,95 +50,20 @@
             , 
             <a href="/categories/trees">Trees</a>
         
+            , 
+            <a href="/categories/decision-trees">Decision Trees</a>
+        
+            , 
+            <a href="/categories/boosting">Boosting</a>
+        
+            , 
+            <a href="/categories/gradient-boosting">Gradient Boosting</a>
+        
     </p>
     
 
     <div class="content">
-        <p>+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>+++
-title = &lsquo;XGBoost&rsquo;
-date = 2024-12-26
-categories = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;]
-tags = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;, &ldquo;Boosting&rdquo;]
-keywords = [&ldquo;Trees&rdquo;, &ldquo;Machine Learning&rdquo;, &ldquo;ML&rdquo;, &ldquo;Decision Trees&rdquo;, &ldquo;Boosting&rdquo;, &ldquo;Gradient Boosting&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>+++
-title = &lsquo;XGBoost&rsquo;
-date = 2024-12-26
-categories = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;]
-tags = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;, &ldquo;Boosting&rdquo;]
-keywords = [&ldquo;Trees&rdquo;, &ldquo;Machine Learning&rdquo;, &ldquo;ML&rdquo;, &ldquo;Decision Trees&rdquo;, &ldquo;Boosting&rdquo;, &ldquo;Gradient Boosting&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>+++
-title = &lsquo;XGBoost&rsquo;
-date = 2024-12-26
-categories = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;]
-tags = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;, &ldquo;Boosting&rdquo;]
-keywords = [&ldquo;Trees&rdquo;, &ldquo;Machine Learning&rdquo;, &ldquo;ML&rdquo;, &ldquo;Decision Trees&rdquo;, &ldquo;Boosting&rdquo;, &ldquo;Gradient Boosting&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++</p>
-<p>title = &lsquo;XGBoost&rsquo;
-date = 2024-12-26
-categories = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;]
-tags = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;, &ldquo;Boosting&rdquo;]
-keywords = [&ldquo;Trees&rdquo;, &ldquo;Machine Learning&rdquo;, &ldquo;ML&rdquo;, &ldquo;Decision Trees&rdquo;, &ldquo;Boosting&rdquo;, &ldquo;Gradient Boosting&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true</p>
-<p>title = &lsquo;XGBoost&rsquo;
-date = 2024-12-26
-categories = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;]
-tags = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;, &ldquo;Boosting&rdquo;]
-keywords = [&ldquo;Trees&rdquo;, &ldquo;Machine Learning&rdquo;, &ldquo;ML&rdquo;, &ldquo;Decision Trees&rdquo;, &ldquo;Boosting&rdquo;, &ldquo;Gradient Boosting&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true</p>
-<p>title = &lsquo;XGBoost&rsquo;
-date = 2024-12-26
-categories = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;]
-tags = [&ldquo;Machine Learning&rdquo;, &ldquo;Trees&rdquo;, &ldquo;Boosting&rdquo;]
-keywords = [&ldquo;Trees&rdquo;, &ldquo;Machine Learning&rdquo;, &ldquo;ML&rdquo;, &ldquo;Decision Trees&rdquo;, &ldquo;Boosting&rdquo;, &ldquo;Gradient Boosting&rdquo;]
-description = &ldquo;SEO Description Here&rdquo;
-draft = false
-[params.math]
-math = true</p>
-<p><img src="/images/bob-brewer-f309SjsrC3I-unsplash.jpg" alt="Image">
+        <p><img src="/images/bob-brewer-f309SjsrC3I-unsplash.jpg" alt="Image">
 <a href="https://unsplash.com/@brewbottle">Image by Bob Brewer</a></p>
 <p>Since the introduction of gradient tree boosting methods, tree boosting methods have often been the highest performing models across many tabular benchmarks. Alongside this, they have often be the winning models in many Kaggle competitions. Today we&rsquo;ll cover the most popular of these models: XGBoost.</p>
 <p>XGBoost popularity stems from many reasons, with the most important being its scalability to all scenarios. It is one of the fastest tree based models to train because of the algorithms used with sparse data and it&rsquo;s exploitation of parallel and distributed computing.</p>

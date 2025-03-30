@@ -3,103 +3,10 @@ title = 'Rest APIs'
 date = 2024-10-30
 categories = ["Programming Tools"]
 tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
+image = "/images/ante-hamersmit-DSUjNkiRFg0-unsplash.jpg"
 draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
 +++
 
-+++
-title = 'Rest APIs'
-date = 2024-10-30
-categories = ["Programming Tools"]
-tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Rest APIs'
-date = 2024-10-30
-categories = ["Programming Tools"]
-tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Rest APIs'
-date = 2024-10-30
-categories = ["Programming Tools"]
-tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Rest APIs'
-date = 2024-10-30
-categories = ["Programming Tools"]
-tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Rest APIs'
-date = 2024-10-30
-categories = ["Programming Tools"]
-tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Rest APIs'
-date = 2024-10-30
-categories = ["Programming Tools"]
-tags = ["REST APIs"]
-keywords = ["Rest", "REST APIs", "APIs"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/ante-hamersmit-DSUjNkiRFg0-unsplash.jpg)
 [Image by Ante Hamersmit](https://unsplash.com/@ante_kante?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

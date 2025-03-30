@@ -1,105 +1,10 @@
 +++
 title = 'Some Questions in Probability II'
 date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
+categories = ["Probability", "Random Walks", "Expectation"]
 draft = false
-[params.math]
-math = true
+image="/images/hannes-knutsson-2icXZAriT_E-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Some Questions in Probability II'
-date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Some Questions in Probability II'
-date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Some Questions in Probability II'
-date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Some Questions in Probability II'
-date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Some Questions in Probability II'
-date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Some Questions in Probability II'
-date = 2025-01-07
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Expectation"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/hannes-knutsson-2icXZAriT_E-unsplash.jpg)
 

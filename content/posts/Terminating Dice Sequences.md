@@ -1,105 +1,10 @@
 +++
 title = 'Terminating Dice Sequences'
 date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
+categories = [ "Probability", "Random Walks", "Optiver"]
 draft = false
-[params.math]
-math = true
+image = "/images/robin-noguier-sydwCr54rf0-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Terminating Dice Sequences'
-date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Terminating Dice Sequences'
-date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Terminating Dice Sequences'
-date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Terminating Dice Sequences'
-date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Terminating Dice Sequences'
-date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Terminating Dice Sequences'
-date = 2025-01-02
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Dice", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/robin-noguier-sydwCr54rf0-unsplash.jpg)
 [Image by Robin Nouguier](https://unsplash.com/@robinnoguier)

@@ -2,177 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/gamblers-ruin-for-a-symmetric-random-walk/</loc>
+    <loc>http://localhost:1313/posts/gamblers-ruin-for-a-symmetric-random-walk/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/martingales/</loc>
+    <loc>http://localhost:1313/categories/martingales/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/probability/</loc>
+    <loc>http://localhost:1313/categories/probability/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/random-walks/</loc>
+    <loc>http://localhost:1313/categories/random-walks/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/probability/</loc>
+    <loc>http://localhost:1313/categories/expectation/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/some-questions-in-probability-ii/</loc>
+    <loc>http://localhost:1313/posts/some-questions-in-probability-ii/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
-    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/terminating-dice-sequences/</loc>
+    <loc>http://localhost:1313/categories/optiver/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/boosting/</loc>
+    <loc>http://localhost:1313/posts/terminating-dice-sequences/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/boosting/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/machine-learning/</loc>
+    <loc>http://localhost:1313/categories/decision-trees/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/machine-learning/</loc>
+    <loc>http://localhost:1313/categories/gradient-boosting/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/trees/</loc>
+    <loc>http://localhost:1313/categories/machine-learning/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/trees/</loc>
+    <loc>http://localhost:1313/categories/trees/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/xgboost/</loc>
+    <loc>http://localhost:1313/posts/xgboost/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/perpetual-children/</loc>
+    <loc>http://localhost:1313/posts/perpetual-children/</loc>
     <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/some-questions-in-probability-i/</loc>
+    <loc>http://localhost:1313/tags/probability/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/random-walks/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/some-questions-in-probability-i/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/gams/</loc>
+    <loc>http://localhost:1313/categories/gams/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/gams/</loc>
+    <loc>http://localhost:1313/posts/gams/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/statistical-modelling/</loc>
+    <loc>http://localhost:1313/categories/statistical-modelling/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/docker/</loc>
+    <loc>http://localhost:1313/posts/docker/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/martingale-theory/</loc>
+    <loc>http://localhost:1313/posts/martingale-theory/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/optional-stopping-theorem/</loc>
+    <loc>http://localhost:1313/categories/optional-stopping-theorem/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/programming-tools/</loc>
+    <loc>http://localhost:1313/categories/programming-tools/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/the-ant-problem/</loc>
+    <loc>http://localhost:1313/posts/the-ant-problem/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/rest-apis/</loc>
+    <loc>http://localhost:1313/posts/rest-apis/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/rest-apis/</loc>
+    <loc>http://localhost:1313/tags/rest-apis/</loc>
     <lastmod>2024-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/arma--arima/</loc>
+    <loc>http://localhost:1313/posts/arma--arima/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/statistics/</loc>
+    <loc>http://localhost:1313/categories/statistics/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/time-series/</loc>
+    <loc>http://localhost:1313/categories/time-series/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/time-series/</loc>
+    <loc>http://localhost:1313/posts/what-is-a-time-series--how-can-we-model-it/</loc>
     <lastmod>2024-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/what-is-a-time-series--how-can-we-model-it/</loc>
-    <lastmod>2024-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/gnns/</loc>
+    <loc>http://localhost:1313/categories/gnns/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/graphs/</loc>
+    <loc>http://localhost:1313/categories/graphs/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/message-passing-neural-networks/</loc>
+    <loc>http://localhost:1313/posts/message-passing-neural-networks/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/mmpns/</loc>
+    <loc>http://localhost:1313/categories/mmpns/</loc>
     <lastmod>2024-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/kullback-leibler-divergence/</loc>
+    <loc>http://localhost:1313/posts/kullback-leibler-divergence/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/statistics/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/categories/ai/</loc>
+    <loc>http://localhost:1313/categories/ai/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/diffusion-models/</loc>
+    <loc>http://localhost:1313/categories/diffusion-models/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/diffusion-models-ddpm/</loc>
+    <loc>http://localhost:1313/posts/diffusion-models-ddpm/</loc>
     <lastmod>2024-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/graphsage/</loc>
+    <loc>http://localhost:1313/posts/graphsage/</loc>
     <lastmod>2024-07-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/graph-factorisation-methods-in-shallow-graphs/</loc>
+    <loc>http://localhost:1313/posts/graph-factorisation-methods-in-shallow-graphs/</loc>
     <lastmod>2024-07-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/gans/</loc>
+    <loc>http://localhost:1313/categories/gans/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/instance-normalisation-within-gans/</loc>
+    <loc>http://localhost:1313/posts/instance-normalisation-within-gans/</loc>
     <lastmod>2024-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/auto-encoders/</loc>
+    <loc>http://localhost:1313/categories/auto-encoders/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/auto-encoders/</loc>
+    <loc>http://localhost:1313/posts/u-net/</loc>
     <lastmod>2024-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/u-net/</loc>
-    <lastmod>2024-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</loc>
+    <loc>http://localhost:1313/posts/why-do-trees-outperform-neural-networks-on-tabular-data/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/algorithms/</loc>
+    <loc>http://localhost:1313/categories/algorithms/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/dynamic-programming/</loc>
+    <loc>http://localhost:1313/categories/dynamic-programming/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/dynamic-programming-in-solving-palindrome-partitioning/</loc>
+    <loc>http://localhost:1313/posts/dynamic-programming-in-solving-palindrome-partitioning/</loc>
     <lastmod>2024-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/non-convex-optimisation-learning-rate-scheduling/</loc>
+    <loc>http://localhost:1313/posts/non-convex-optimisation-learning-rate-scheduling/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/programming/</loc>
+    <loc>http://localhost:1313/categories/programming/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/archive/</loc>
+    <loc>http://localhost:1313/archive/</loc>
   </url>
 </urlset>

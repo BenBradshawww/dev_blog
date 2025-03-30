@@ -1,105 +1,10 @@
 +++
 title = 'What is a Time Series & How can we Model it?'
 date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
+categories = ["Statistics", "Time Series"]
 draft = false
-[params.math]
-math = true
+image = "/images/oguzhan-kiran-wj0l2BJKmkU-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'What is a Time Series & How can we Model it?'
-date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'What is a Time Series & How can we Model it?'
-date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'What is a Time Series & How can we Model it?'
-date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'What is a Time Series & How can we Model it?'
-date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'What is a Time Series & How can we Model it?'
-date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'What is a Time Series & How can we Model it?'
-date = 2024-10-05
-categories = ["Time Series"]
-tags = ["Statistics", "Time Series"]
-keywords = ["Time Series"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/oguzhan-kiran-wj0l2BJKmkU-unsplash.jpg)
 [Image by Oğuzhan Kıran](https://mathstoml.ghost.io/ghost/#/editor/post/66eb4a6473445600016630bb)

@@ -1,105 +1,10 @@
 +++
 title = 'Some Questions in Probability I'
 date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
+categories = ["Probability", "Random Walks"]
 draft = false
-[params.math]
-math = true
+image="/images/cameron-cress-OZZIrjLTmA8-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Some Questions in Probability I'
-date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Some Questions in Probability I'
-date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'Some Questions in Probability I'
-date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'Some Questions in Probability I'
-date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Some Questions in Probability I'
-date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'Some Questions in Probability I'
-date = 2024-12-21
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Probability", "Random Walks"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/cameron-cress-OZZIrjLTmA8-unsplash.jpg)
 [Image by Cameron Cress](https://unsplash.com/@cam_cress)

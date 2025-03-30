@@ -6,21 +6,6 @@ image = "/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg"
 categories = ["Programming", "AI", "Machine Learning"]
 +++
 
-+++
-title = 'Non-Convex Optimisation Learning Rate Scheduling'
-draft = false
-date = '2024-06-20'
-image = "/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg"
-categories = ["Programming", "AI", "Machine Learning"]
-+++
-
-+++
-title = 'Non-Convex Optimisation Learning Rate Scheduling'
-draft = false
-date = '2024-06-20'
-image = "/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg"
-categories = ["Programming", "AI", "Machine Learning"]
-+++
 
 ![Image](/images/joshua-sukoff-xTSwjDonDhE-unsplash.jpg)
 [Image by Joshua Sukoff](https://unsplash.com/@joshuas?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

@@ -1,105 +1,10 @@
 +++
 title = 'XGBoost'
 date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
+categories = ["Machine Learning", "Trees","Decision Trees", "Boosting", "Gradient Boosting"]
 draft = false
-[params.math]
-math = true
+image = "/images/bob-brewer-f309SjsrC3I-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'XGBoost'
-date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'XGBoost'
-date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'XGBoost'
-date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'XGBoost'
-date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'XGBoost'
-date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'XGBoost'
-date = 2024-12-26
-categories = ["Machine Learning", "Trees"]
-tags = ["Machine Learning", "Trees", "Boosting"]
-keywords = ["Trees", "Machine Learning", "ML", "Decision Trees", "Boosting", "Gradient Boosting"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/bob-brewer-f309SjsrC3I-unsplash.jpg)
 [Image by Bob Brewer](https://unsplash.com/@brewbottle)

@@ -1,105 +1,10 @@
 +++
 title = 'The Ant Problem'
 date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
+categories = ["Probability", "Random Walks", "Optiver"]
 draft = false
-[params.math]
-math = true
+image = "/images/mi_shots-8SJwz4nk7FA-unsplash.jpg"
 +++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'The Ant Problem'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'The Ant Problem'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-+++
-title = 'The Ant Problem'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-+++
-+++
-+++
-+++
-+++
-+++
-+++
-
-
-title = 'The Ant Problem'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'The Ant Problem'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
-
-title = 'The Ant Problem'
-date = 2024-11-01
-categories = ["Probability"]
-tags = ["Probability"]
-keywords = ["Ants", "Ant Problem", "Probability", "Random Walks", "Optiver"]
-description = "SEO Description Here"
-draft = false
-[params.math]
-math = true
 
 ![Image](/images/mi_shots-8SJwz4nk7FA-unsplash.jpg)
 [Image by mi_shots](https://unsplash.com/@mi_shots?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)

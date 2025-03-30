@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optional-Stopping Theorem on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/optional-stopping-theorem/</link>
+    <link>https://example.org/categories/optional-stopping-theorem/</link>
     <description>Recent content in Optional-Stopping Theorem on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/optional-stopping-theorem/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/optional-stopping-theorem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Martingale Theory</title>
-      <link>http://localhost:1313/posts/martingale-theory/</link>
+      <link>https://example.org/posts/martingale-theory/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/martingale-theory/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/sq-lim-aWm7fAUNPEc-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@sql&#34;&gt;Image by sq lim&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s article will look at one of the more difficult areas in probability called martingale theory. We will cover the basic theory and look at 2 examples which use martingale theory (the drunk man and the ABRACADABRA problem).&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-theory&#34;&gt;The Theory&lt;/h2&gt;&#xA;&lt;p&gt;Before jumping into the problem, we have to cover some of the theory behind martingales. It is important to mention we will be skipping over many of the measure theory definitions and theorems. These will be covered at a later time. If you wish to read up more about this area of mathematics, I&amp;rsquo;d recommend reading the paper by T. Smith &lt;a href=&#34;https://math.uchicago.edu/~may/REU2012/REUPapers/Smith.pdf&#34;&gt;here&lt;/a&gt;. This paper was the basis for this article [1].&lt;/p&gt;</description>
+      <guid>https://example.org/posts/martingale-theory/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/sq-lim-aWm7fAUNPEc-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@sql&#34;&gt;Image by sq lim&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s article will look at one of the more difficult areas in probability called martingale theory. We will cover the basic theory and look at 2 examples which use martingale theory (the drunk man and the ABRACADABRA problem).&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-theory&#34;&gt;The Theory&lt;/h2&gt;&#xA;&lt;p&gt;Before jumping into the problem, we have to cover some of the theory behind martingales. It is important to mention we will be skipping over many of the measure theory definitions and theorems. These will be covered at a later time. If you wish to read up more about this area of mathematics, I&amp;rsquo;d recommend reading the paper by T. Smith &lt;a href=&#34;https://math.uchicago.edu/~may/REU2012/REUPapers/Smith.pdf&#34;&gt;here&lt;/a&gt;. This paper was the basis for this article [1].&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Random Walks on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/random-walks/</link>
+    <link>https://example.org/tags/random-walks/</link>
     <description>Recent content in Random Walks on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/random-walks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/tags/random-walks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Perpetual Children</title>
-      <link>http://localhost:1313/posts/perpetual-children/</link>
+      <link>https://example.org/posts/perpetual-children/</link>
       <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/perpetual-children/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@vikceo&#34;&gt;Image by Vivek Kumar&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Question&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A couple chooses to keep having children till they have an equal number of boys and girls. How many children will they have on average? [1]&lt;/p&gt;&#xA;&lt;p&gt;In this article we will cover 2 ways to solve this problem. First using a random walk and proof by contradiction. The second is Optiver&amp;rsquo;s solution to this problem which use Dyck&amp;rsquo;s path.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution 1&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Let $X_t$ denote the random variable for which child has been born at time $t$.&lt;/p&gt;</description>
+      <guid>https://example.org/posts/perpetual-children/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/images/vivek-kumar-riAKT8Z7ifE-unsplash.jpg&#34; alt=&#34;Image&#34;&gt;&#xA;&lt;a href=&#34;https://unsplash.com/@vikceo&#34;&gt;Image by Vivek Kumar&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Question&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A couple chooses to keep having children till they have an equal number of boys and girls. How many children will they have on average? [1]&lt;/p&gt;&#xA;&lt;p&gt;In this article we will cover 2 ways to solve this problem. First using a random walk and proof by contradiction. The second is Optiver&amp;rsquo;s solution to this problem which use Dyck&amp;rsquo;s path.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Solution 1&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Let $X_t$ denote the random variable for which child has been born at time $t$.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
